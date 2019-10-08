@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<head>
+		<title>Sm Image Slider</title>
+		<css src="Sm_ImageSlider::css/imageslider.css" media="all" />
+		<css src="Sm_ImageSlider::css/owl.carousel.css" media="all" />
+		<script src="jquery.js" data-requiremodule="jquery" />
+		<script src="Sm_ImageSlider::js/owl.carousel.js" defer="defer" async="" data-requirecontext="jquery" data-requiremodule="Sm_ImageSlider::js/owl.carousel" />
+	</head>
+	<body>
+		<referenceContainer name="content">
+			<block class="Sm\ImageSlider\Block\ImageSlider" name="imageslider" template="Sm_ImageSlider::default.phtml">
+			</block>
+		</referenceContainer>
+	</body>
+</page>

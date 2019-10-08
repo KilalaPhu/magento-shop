@@ -1,0 +1,81 @@
+<?php
+$collection=$this->getDulieu();
+$length=$this->getLength();
+?>
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th>Giftcard Id</th>
+        <th>Code</th>
+        <th>Balance</th>
+        <th>Amount Used</th>
+        <th>Create From</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <?php foreach ($collection as $value) : ?>
+    <tbody>
+    <tr>
+        <td><?php echo $value['giftcard_id']?></td>
+        <td><?php echo $value['code']?></td>
+        <td><?php echo $value['balance']?></td>
+        <td><?php echo $value['amount_used']?></td>
+        <td><?php echo $value['create_from']?></td>
+        <td><a href="<?php echo $this->getUrl('giftcard/index/edit/',['id'=>$value['giftcard_id']]) ?>" class="action primary">Edit</a></td>
+        <td><a href="<?php echo $this->getUrl('giftcard/index/delete/',['id'=>$value['giftcard_id']]) ?>" class="action primary">Delete</a></td>
+    </tr>
+    </tbody>
+    <?php endforeach ?>
+</table>
+
+
+<form id="form-question" method="POST" role="form" action="<?= $this->getUrl('giftcard/index/save'); ?>">
+    <h3><b>Form Create</b></h3>
+
+    <div class="form-group">
+        <label for="">Code</label>
+        <input type="text" class="form-control" name="length" readonly value="<?php echo $length?>">
+    </div>
+
+    <div class="form-group">
+        <label for="">Balance</label>
+        <input type="number" class="form-control" name="balance" data-validate="{required:true}" placeholder=".....">
+    </div>
+
+    <div class="form-group">
+        <input type="hidden" class="form-control" name="create_from" data-validate="{required:true}" value="admin">
+    </div>
+
+    <button type="submit" class="action primary">Create</button>
+</form>
+
+<script type="text/x-magento-init">
+{
+    "#form-question": {
+        "validation": {}
+    }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+<?php
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+?>
+
+<?php
+$_config = $this->helper('Sm\Revo\Helper\Data');
+$class_detail = $detailStyle . ' ' . 'thumb-' . $thumsStyle;
+?>
+
+<div class="<?php echo $class_detail; ?>">
+    <div class="row">
+        <div class="col-lg-9 col-md-9 content-detail">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 c0l-xs-12 image-box-detail">
+                    <?php echo $block->getChildHtml('product.info.media'); ?>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 c0l-xs-12 info-box-detail">
+                    <div class="info-detail-container">
+                        <?php echo $block->getChildHtml('product.info.main'); ?>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12 detail-bottom-wrapper">
+                    <?php echo $block->getChildHtml('detail.bottom'); ?>
+                </div>
+
+                <div class="col-lg-12 col-md-12">
+                    <div class="content-product-detail">
+                        <?php echo $block->getChildHtml('upsell.product'); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 left-detail">
+            <?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('categories-left')->toHtml(); ?>
+            <?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('banner-sidebar')->toHtml(); ?>
+            <?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('product-sidebar')->toHtml(); ?>
+
+            <?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('image-sidebar-detail')->toHtml(); ?>
+            <?php echo $block->getChildHtml('related.product'); ?>
+        </div>
+    </div>
+</div>

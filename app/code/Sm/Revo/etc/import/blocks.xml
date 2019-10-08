@@ -1,0 +1,2000 @@
+<?xml version="1.0"?>
+<root>
+  <blocks>
+    <cms_item>
+      <title>Revo - Footer My Account</title>
+      <identifier>spotlight4</identifier>
+      <content><![CDATA[<div class="footer-block">
+	<div class="footer-block-title">
+		<h3>My Account</h3>
+	</div>
+	<div class="footer-block-content">
+		<ul class="links-footer">
+			<li><a title="Contact Us" href="{{store url=""}}contact-us.html">Contact Us</a></li>
+			<li><a title="About Us" href="{{store url=""}}about-us.html">About Us</a></li>
+			<li><a title="FAQ" href="#">F.A.Q</a></li>
+			<li><a title="Help Center" href="#">Help Center</a></li>
+			<li><a title="Privacy Policy" href="#">Privacy Policy</a></li>			
+		</ul>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Footer Our Shop</title>
+      <identifier>spotlight1</identifier>
+      <content><![CDATA[<div class="footer-block">
+	<div class="footer-block-title">
+		<h3>Our Shop</h3>
+	</div>
+	<div class="footer-block-content">
+		<ul class="links-footer">
+		<li><a title="Shipping Policy" href="#">Product Support</a></li>
+		<li><a title="Compensation First" href="#">PC Setup & Support</a></li>
+		<li><a title="My Account" href="{{store url=""}}customer/account">Services</a></li>
+		<li><a title="Return Policy" href="#">Return Policy</a></li>
+		<li><a title="Contact Us" href="{{store url=""}}contact-us.html">Community</a></li>
+		</ul>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Footer Your link</title>
+      <identifier>spotlight2</identifier>
+      <content><![CDATA[<div class="footer-block">
+<div class="footer-block-title">
+<h3>Your link</h3>
+</div>
+<div class="footer-block-content">
+<ul class="links-footer">
+<li><a title="Terms of Use" href="#">Terms of Use</a></li>
+<li><a title="Payment Methods" href="#">Payment Methods</a></li>
+<li><a title="Shipping Guide" href="#">Shipping Guide</a></li>
+<li><a title="Locations We Ship To" href="#">Locations We Ship To</a></li>
+<li><a title="Estimated Delivery Time" href="#">Estimated Delivery Time</a></li>
+</ul>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Footer Contact Us</title>
+      <identifier>spotlight5</identifier>
+      <content><![CDATA[<div class="footer-block">
+<div class="footer-block-title">
+<h3>Contact Us</h3>
+</div>
+<div class="footer-block-content">
+<ul class="links-contact">
+<li class="add-icon">Address: No 40 Baria Sreet 133/2 NewYork City, NY, United States</li>
+<li class="email-icon middle-content">Email: contact@revo.com</li>
+<li class="phone-icon">Phone 1 : 0123456789<br />Phone 2 : 0123456789</li>
+</ul>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Footer Categories</title>
+      <identifier>footer-categories</identifier>
+      <content><![CDATA[<div class="footer-cates-w">
+<nav role='navigation'>
+<a href="#">Home</a>
+<a href="#">Categories</a>
+<a href="#">Mobiles</a>
+<a href="#">Electronics</a>
+<a href="#">Accessories</a>
+<a href="#">Laptop</a>
+<a href="#">About us</a>
+<a href="#">Help</a>
+</nav>
+<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Payment Footer</title>
+      <identifier>payment-footer</identifier>
+      <content><![CDATA[<img src="{{media url="wysiwyg/payment/payment1.png"}}" alt="Payment" />
+<img src="{{media url="wysiwyg/payment/payment2.png"}}" alt="Payment" />]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - About Us Page</title>
+      <identifier>about-us-page</identifier>
+      <content><![CDATA[<div class="aboutus-page">
+<div class="row box-1-about">
+<div class="col-md-9 welcome-about-us">
+<div class="title-about-us">
+<h2>Welcome To Shop</h2>
+</div>
+<div class="content-about-us">
+<div class="image-about-us"><img src="{{media url="wysiwyg/about-us.png"}}" alt="About Us" /></div>
+<div class="des-about-us">Nulla auctor mauris ut dui luctus semper. In hac habitasse platea dictumst. Duis pellentesque ligula a risus suscipit dignissim. Nunc non nisl lacus. Integer pharetra lacinia dapibus. Donec eu dolor dui, vel posuere mauris.<br /><br /> Pellentesque semper congue sodales. In consequat, metus eget con sequat ornare, augue dolor blandit purus, vitae lacinia nisi tellus in erat. Nulla ac justo eget massa aliquet sodales. Maecenas mattis male suada sem, in fringilla massa dapibus quis. Suspendisse aliquam leo id neque auctor molestie. Etiam at nulla tellus.<br /><br /> Nulla auctor mauris ut dui luctus semper. In hac habitasse platea dictumst. Duis pellentesque ligula a risus suscipit dignissim.</div>
+</div>
+</div>
+<div class="col-md-3 why-choose-us">
+<div class="title-about-us">
+<h2>Why Choose Us</h2>
+</div>
+<div class="content-why">
+<ul class="why-list">
+<li><a title="Shipping &amp; Returns" href="#">Shipping &amp; Returns</a></li>
+<li><a title="Secure Shopping" href="#">Secure Shopping</a></li>
+<li><a title="International Shipping" href="#">International Shipping</a></li>
+<li><a title="Affiliates" href="#">Affiliates</a></li>
+<li><a title="Group Sales" href="#">Group Sales</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-12 our-member">
+<div class="title-about-us">
+<h2>Our Member</h2>
+</div>
+<div class="short-des">Consectetur adipiscing elit. Donec pellentesque venenatis elit, quis aliquet mauris malesuada vel. Donec vitae libero dolor, eget dapibus justo.<br />Aenean facilisis aliquet feugiat. Suspendisse lacinia congue est ac semper. Nulla ut elit magna, vitae volutpat magna.</div>
+<div class="sm_imageslider slider-ourmember">
+<div class="item respl-item">
+<div class="item-inner">
+<div class="w-image-box">
+<div class="item-image"><a title="Jennifer lawrence" href="#"><img src="{{media url="wysiwyg/cl-image-1.png"}}" alt="Jennifer lawrence" /></a></div>
+<a class="cl-nw cl-facebook" title="Facebook" href="#">Facebook</a> <a class="cl-nw cl-flickr" title="Flickr" href="#">Flickr</a> <a class="cl-nw cl-twitter" title="Twitter" href="#">Twitter</a></div>
+<div class="info-member">
+<h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+<p class="cl-job">Tech Leader</p>
+<p class="cl-des">Pellentesque dictumst nibh nulla dui at urna leo wisi dui</p>
+</div>
+</div>
+</div>
+<div class="item respl-item">
+<div class="item-inner">
+<div class="w-image-box">
+<div class="item-image"><a title="Jennifer lawrence" href="#"><img src="{{media url="wysiwyg/cl-image-2.png"}}" alt="Jennifer lawrence" /></a></div>
+<a class="cl-nw cl-facebook" title="Facebook" href="#">Facebook</a> <a class="cl-nw cl-flickr" title="Flickr" href="#">Flickr</a> <a class="cl-nw cl-twitter" title="Twitter" href="#">Twitter</a></div>
+<div class="info-member">
+<h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+<p class="cl-job">Manager</p>
+<p class="cl-des">Pellentesque dictumst nibh nulla dui at urna leo wisi dui</p>
+</div>
+</div>
+</div>
+<div class="item respl-item">
+<div class="item-inner">
+<div class="w-image-box">
+<div class="item-image"><a title="Jennifer lawrence" href="#"><img src="{{media url="wysiwyg/cl-image-3.png"}}" alt="Jennifer lawrence" /></a></div>
+<a class="cl-nw cl-facebook" title="Facebook" href="#">Facebook</a> <a class="cl-nw cl-flickr" title="Flickr" href="#">Flickr</a> <a class="cl-nw cl-twitter" title="Twitter" href="#">Twitter</a></div>
+<div class="info-member">
+<h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+<p class="cl-job">Art Director</p>
+<p class="cl-des">Pellentesque dictumst nibh nulla dui at urna leo wisi dui</p>
+</div>
+</div>
+</div>
+<div class="item respl-item">
+<div class="item-inner">
+<div class="w-image-box">
+<div class="item-image"><a title="Jennifer lawrence" href="#"><img src="{{media url="wysiwyg/cl-image-4.png"}}" alt="Jennifer lawrence" /></a></div>
+<a class="cl-nw cl-facebook" title="Facebook" href="#">Facebook</a> <a class="cl-nw cl-flickr" title="Flickr" href="#">Flickr</a> <a class="cl-nw cl-twitter" title="Twitter" href="#">Twitter</a></div>
+<div class="info-member">
+<h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+<p class="cl-job">Design Leader</p>
+<p class="cl-des">Pellentesque dictumst nibh nulla dui at urna leo wisi dui</p>
+</div>
+</div>
+</div>
+<div class="item respl-item">
+<div class="item-inner">
+<div class="w-image-box">
+<div class="item-image"><a title="Jennifer lawrence" href="#"><img src="{{media url="wysiwyg/cl-image-1.png"}}" alt="Jennifer lawrence" /></a></div>
+<a class="cl-nw cl-facebook" title="Facebook" href="#">Facebook</a> <a class="cl-nw cl-flickr" title="Flickr" href="#">Flickr</a> <a class="cl-nw cl-twitter" title="Twitter" href="#">Twitter</a></div>
+<div class="info-member">
+<h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+<p class="cl-job">Tech Leader</p>
+<p class="cl-des">Pellentesque dictumst nibh nulla dui at urna leo wisi dui</p>
+</div>
+</div>
+</div>
+<div class="item respl-item">
+<div class="item-inner">
+<div class="w-image-box">
+<div class="item-image"><a title="Jennifer lawrence" href="#"><img src="{{media url="wysiwyg/cl-image-2.png"}}" alt="Jennifer lawrence" /></a></div>
+<a class="cl-nw cl-facebook" title="Facebook" href="#">Facebook</a> <a class="cl-nw cl-flickr" title="Flickr" href="#">Flickr</a> <a class="cl-nw cl-twitter" title="Twitter" href="#">Twitter</a></div>
+<div class="info-member">
+<h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+<p class="cl-job">Manager</p>
+<p class="cl-des">Pellentesque dictumst nibh nulla dui at urna leo wisi dui</p>
+</div>
+</div>
+</div>
+<div class="item respl-item">
+<div class="item-inner">
+<div class="w-image-box">
+<div class="item-image"><a title="Jennifer lawrence" href="#"><img src="{{media url="wysiwyg/cl-image-3.png"}}" alt="Jennifer lawrence" /></a></div>
+<a class="cl-nw cl-facebook" title="Facebook" href="#">Facebook</a> <a class="cl-nw cl-flickr" title="Flickr" href="#">Flickr</a> <a class="cl-nw cl-twitter" title="Twitter" href="#">Twitter</a></div>
+<div class="info-member">
+<h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+<p class="cl-job">Art Director</p>
+<p class="cl-des">Pellentesque dictumst nibh nulla dui at urna leo wisi dui</p>
+</div>
+</div>
+</div>
+<div class="item respl-item">
+<div class="item-inner">
+<div class="w-image-box">
+<div class="item-image"><a title="Jennifer lawrence" href="#"><img src="{{media url="wysiwyg/cl-image-4.png"}}" alt="Jennifer lawrence" /></a></div>
+<a class="cl-nw cl-facebook" title="Facebook" href="#">Facebook</a> <a class="cl-nw cl-flickr" title="Flickr" href="#">Flickr</a> <a class="cl-nw cl-twitter" title="Twitter" href="#">Twitter</a></div>
+<div class="info-member">
+<h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+<p class="cl-job">Design Leader</p>
+<p class="cl-des">Pellentesque dictumst nibh nulla dui at urna leo wisi dui</p>
+</div>
+</div>
+</div>
+<div class="item respl-item">
+<div class="item-inner">
+<div class="w-image-box">
+<div class="item-image"><a title="Jennifer lawrence" href="#"><img src="{{media url="wysiwyg/cl-image-1.png"}}" alt="Jennifer lawrence" /></a></div>
+<a class="cl-nw cl-facebook" title="Facebook" href="#">Facebook</a> <a class="cl-nw cl-flickr" title="Flickr" href="#">Flickr</a> <a class="cl-nw cl-twitter" title="Twitter" href="#">Twitter</a></div>
+<div class="info-member">
+<h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+<p class="cl-job">Tech Leader</p>
+<p class="cl-des">Pellentesque dictumst nibh nulla dui at urna leo wisi dui</p>
+</div>
+</div>
+</div>
+<div class="item respl-item">
+<div class="item-inner">
+<div class="w-image-box">
+<div class="item-image"><a title="Jennifer lawrence" href="#"><img src="{{media url="wysiwyg/cl-image-4.png"}}" alt="Jennifer lawrence" /></a></div>
+<a class="cl-nw cl-facebook" title="Facebook" href="#">Facebook</a> <a class="cl-nw cl-flickr" title="Flickr" href="#">Flickr</a> <a class="cl-nw cl-twitter" title="Twitter" href="#">Twitter</a></div>
+<div class="info-member">
+<h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+<p class="cl-job">Design Leader</p>
+<p class="cl-des">Pellentesque dictumst nibh nulla dui at urna leo wisi dui</p>
+</div>
+</div>
+</div>
+<div class="item respl-item">
+<div class="item-inner">
+<div class="w-image-box">
+<div class="item-image"><a title="Jennifer lawrence" href="#"><img src="{{media url="wysiwyg/cl-image-4.png"}}" alt="Jennifer lawrence" /></a></div>
+<a class="cl-nw cl-facebook" title="Facebook" href="#">Facebook</a> <a class="cl-nw cl-flickr" title="Flickr" href="#">Flickr</a> <a class="cl-nw cl-twitter" title="Twitter" href="#">Twitter</a></div>
+<div class="info-member">
+<h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+<p class="cl-job">Design Leader</p>
+<p class="cl-des">Pellentesque dictumst nibh nulla dui at urna leo wisi dui</p>
+</div>
+</div>
+</div>
+<div class="item respl-item">
+<div class="item-inner">
+<div class="w-image-box">
+<div class="item-image"><a title="Jennifer lawrence" href="#"><img src="{{media url="wysiwyg/cl-image-3.png"}}" alt="Jennifer lawrence" /></a></div>
+<a class="cl-nw cl-facebook" title="Facebook" href="#">Facebook</a> <a class="cl-nw cl-flickr" title="Flickr" href="#">Flickr</a> <a class="cl-nw cl-twitter" title="Twitter" href="#">Twitter</a></div>
+<div class="info-member">
+<h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+<p class="cl-job">Design Leader</p>
+<p class="cl-des">Pellentesque dictumst nibh nulla dui at urna leo wisi dui</p>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+	require([
+		'jquery',
+		'owlcarousel'
+	], function ($) {
+				$('.slider-ourmember').owlCarousel({
+					pagination: false,
+					center: false,
+					nav: true,
+					loop: false,
+					margin: 30,
+					navText: [ 'prev', 'next' ],
+					slideBy: 1,
+					autoplay: false,
+					autoplayTimeout: 2500,
+					autoplayHoverPause: true,
+					autoplaySpeed: 800,
+					startPosition: 0, 
+					responsive:{
+						0:{
+							items:1
+						},
+						480:{
+							items:2
+						},
+						768:{
+							items:3
+						},
+						1200:{
+							items:4
+						}
+					}
+				});	  
+			});
+</script>
+</div>
+<div class="col-md-12 happy-about-us">
+<div id="slider-happy-about-us" class="happy-ab carousel slide" data-ride="carousel">
+<div class="title-happy-about">
+<h2>Happy customer says</h2>
+</div>
+<div class="sm_imageslider slider-happy-client">
+<div class="item active">
+<div class="ct-why">
+<div class="client-say">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue, justo non cursus adipiscing, dui nibh scelerisque justo, quis pretium turpis neque eget nulla. Curabitur dictum consectetur metus nec dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue, justo non cursus adipiscing, dui nibh scelerisque justo non cursus adipiscing, dui nibh scelerisque justo, quis pretium turpis.</div>
+<p class="client-info-about"><span class="name">- Mama Duo - </span>Social Media Strategist</p>
+</div>
+</div>
+<div class="item">
+<div class="ct-why">
+<div class="client-say">In congue, justo non cursus adipiscing, dui nibh scelerisque justo, lorem ipsum dolor sit amet, consectetur adipiscing elit. quis pretium turpis neque eget nulla. Curabitur dictum consectetur metus nec dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue, justo non cursus adipiscing, dui nibh scelerisque justo non cursus adipiscing, dui nibh scelerisque justo, quis pretium turpis.</div>
+<p class="client-info-about"><span class="name">- Jonh Doe - </span>Supporter</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+	require([
+		'jquery',
+		'owlcarousel'
+	], function ($) {
+					$('.slider-happy-client').owlCarousel({
+						pagination: false,
+						center: false,
+						nav: true,
+						loop: false,
+						margin: 30,
+						navText: [ 'prev', 'next' ],
+						slideBy: 1,
+						autoplay: false,
+						autoplayTimeout: 2500,
+						autoplayHoverPause: true,
+						autoplaySpeed: 800,
+						startPosition: 0, 
+						responsive:{
+							0:{
+								items:1
+							},
+							480:{
+								items:1
+							},
+							768:{
+								items:1
+							},
+							1200:{
+								items:1
+							}
+						}
+					});	  
+				});
+</script>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Contact Us Page</title>
+      <identifier>contact-us-page</identifier>
+      <content><![CDATA[<div class="contact-us-page">
+<div class="google-map">{{block class="Magento\\Cms\\Block\\Block" block_id="contact-googlemap"}}</div>
+<div class="row form-contact">
+<div class="col-lg-4 col-md-4">
+<div class="contact-info">
+<div class="title-bonus-page">
+<h2>Contact Us</h2>
+</div>
+<div class="contact-content">
+<p class="contact-description">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam<br /> Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat sed do eiusmod tempor incididunt ut labore dolore</p>
+<ul class="address-info">
+<li class="add-icon">123 Suspendis mattis, Sollicitudin District,<br />Accums Fringilla</li>
+<li class="email-icon">Email: <a title="Send Email" href="mailto:support@domainstore.com">support@domainstore.com</a></li>
+<li class="phone-icon">Hotline: <a title="Call" href="tel:0123456789">0123456789</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-8 col-md-8">{{block class="Magento\Contact\Block\ContactForm" template="Magento_Contact::form-contact.phtml"}}</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Google Map</title>
+      <identifier>contact-googlemap</identifier>
+      <content><![CDATA[<div class="google-map"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8402891185415!2d144.95373631585633!3d-37.817209742014676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1svi!2s!4v1527494727294" width="100%" height="450" frameborder="0" allowfullscreen=""></iframe></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Market - Product Megamenu Men</title>
+      <identifier>product-megamenu</identifier>
+      <content><![CDATA[<div class="product-megamenu">{{block class="Sm\BasicProducts\Block\BasicProducts" template="Sm_BasicProducts::product-megamenu.phtml" title="" product_category="98" product_limitation="1"}}</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Product Sidebar</title>
+      <identifier>product-sidebar</identifier>
+      <content><![CDATA[{{block class="Sm\FilterProducts\Block\FilterProducts" template="Sm_FilterProducts::sidebar-product.phtml" title_module="Best Sellers" display_countdown="0" product_source="best_sellers" select_category="97" product_order_by="name" product_order_dir="ASC" product_limitation="4"}}]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Megamenu Horizontal</title>
+      <identifier>megamenu-horizontal</identifier>
+      <content><![CDATA[{{block class="Sm\MegaMenu\Block\MegaMenu\View" template="Sm_MegaMenu::megamenu-horizontal.phtml" theme="1" group_id="2"}}]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Static Image 1</title>
+      <identifier>static-image-1</identifier>
+      <content><![CDATA[<ul class="static-image">
+<li><a title="Static Image" href="#"> <img src="{{media url="wysiwyg/banner/banner1-1.jpg"}}" alt="Static Image" /> </a></li>
+<li><a title="Static Image" href="#"> <img src="{{media url="wysiwyg/banner/banner1-2.jpg"}}" alt="Static Image" /> </a></li>
+<li><a title="Static Image" href="#"> <img src="{{media url="wysiwyg/banner/banner1-3.jpg"}}" alt="Static Image" /> </a></li>
+</ul>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Image Sidebar Detail</title>
+      <identifier>image-sidebar-detail</identifier>
+      <content><![CDATA[<div class="sidebar-image static-image"><a title="Static Image" href="#"><img src="{{media url="wysiwyg/banner/image-sidebar-detail.jpg"}}" alt="Static Image" /></a></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Social Newsletter Popup</title>
+      <identifier>social-newsletter-popup</identifier>
+      <content><![CDATA[<div class="socials-newsletter font-title">
+<p>Follow Us</p>
+<ul class="social-list">
+<li><a title="title" href="#"><i class="fa fa-facebook"></i><span class="hidden">Facebook</span></a></li>
+<li><a title="title" href="#"><i class="fa fa-twitter"></i><span class="hidden">Twitter</span></a></li>
+<li><a title="title" href="#"><i class="fa fa-google-plus"></i><span class="hidden">Google</span></a></li>
+<li><a title="title" href="#"><i class="fa fa-tumblr"></i><span class="hidden">Tumblr</span></a></li>
+<li><a title="title" href="#"><i class="fa fa-pinterest"></i><span class="hidden">Pinterest</span></a></li>
+</ul>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Short Description Newsletter Popup</title>
+      <identifier>short-description-newsletter-popup</identifier>
+      <content><![CDATA[<p>Subscribe now to get <span>40%</span> off on any product!</p>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Slider Brand</title>
+      <identifier>slider-brand</identifier>
+      <content><![CDATA[<div class="slider-brand-wrapper">
+<div class="slider-brand">
+<div class="item"><a title="Brand" href="#"><img src="{{media url="wysiwyg/brand/logo-1.png"}}" alt="Brand" /></a></div>
+<div class="item"><a title="Brand" href="#"><img src="{{media url="wysiwyg/brand/logo-2.png"}}" alt="Brand" /></a></div>
+<div class="item"><a title="Brand" href="#"><img src="{{media url="wysiwyg/brand/logo-3.png"}}" alt="Brand" /></a></div>
+<div class="item"><a title="Brand" href="#"><img src="{{media url="wysiwyg/brand/logo-4.png"}}" alt="Brand" /></a></div>
+<div class="item"><a title="Brand" href="#"><img src="{{media url="wysiwyg/brand/logo-1.png"}}" alt="Brand" /></a></div>
+<div class="item"><a title="Brand" href="#"><img src="{{media url="wysiwyg/brand/logo-2.png"}}" alt="Brand" /></a></div>
+<div class="item"><a title="Brand" href="#"><img src="{{media url="wysiwyg/brand/logo-3.png"}}" alt="Brand" /></a></div>
+<div class="item"><a title="Brand" href="#"><img src="{{media url="wysiwyg/brand/logo-4.png"}}" alt="Brand" /></a></div>
+</div>
+<script type="text/javascript">
+	require([
+		'jquery',
+		'owlcarousel'
+	], function ($) {
+		$('.slider-brand').owlCarousel({
+			autoplay:false,
+			loop:false,
+			nav : true, // Show next and prev buttons
+			dots: false,
+			autoplaySpeed : 500,
+			navSpeed : 500,
+			dotsSpeed : 500,
+			autoplayHoverPause: true,
+			margin:0,
+			responsive:{
+				0:{
+					items:1
+				},
+				480:{
+					items:2
+				},
+				768:{
+					items:3
+				},
+				992:{
+					items:4
+				},
+				1200:{
+					items:6
+				}
+			},
+		})
+	});
+</script>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Footer Support</title>
+      <identifier>spotlight3</identifier>
+      <content><![CDATA[<div class="footer-block">
+	<div class="footer-block-title">
+		<h3>Support</h3>
+	</div>
+	<div class="footer-block-content">
+		<ul class="links-footer">
+		<li><a title="Shipping Policy" href="#">Product Support</a></li>
+		<li><a title="Compensation First" href="#">PC Setup & Support</a></li>
+		<li><a title="My Account" href="{{store url=""}}customer/account">Services</a></li>
+		<li><a title="Return Policy" href="#">Extended Service Plans</a></li>
+		<li><a title="Contact Us" href="{{store url=""}}contact-us.html">Community</a></li>
+		</ul>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Header support</title>
+      <identifier>header-support</identifier>
+      <content><![CDATA[<div class="header-support">
+	<div class="inner">
+		<strong>Call Us Now:</strong> <span>0123-444-666</span>
+		<p>Email:  Contact@revo.com</p>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - banner infomations</title>
+      <identifier>banner-infos</identifier>
+      <content><![CDATA[
+<div class="block-infos">
+	<div class="info info1">
+		<div class="inner">
+			<i class="fa fa-truck"></i>
+			<div class="info-cont">
+				<span>free delivery</span>
+				<p>From 275 AED</p>
+			</div>
+		</div>
+	</div>
+	<div class="info info2">
+		<div class="inner">
+			<i class="fa fa-money"></i>
+			<div class="info-cont">
+				<span>cash on delivery</span>
+				<p>From 275 AED</p>
+			</div>
+		</div>
+	</div>
+	<div class="info info3">
+		<div class="inner">
+			<i class="fa fa-gift"></i>
+			<div class="info-cont">
+				<span>free gift box</span>
+				<p>& gift note</p>
+			</div>
+		</div>
+	</div>
+	<div class="info info4">
+		<div class="inner">
+			<i class="fa fa-phone-square"></i>
+			<div class="info-cont">
+				<span>contact us</span>
+				<p>123 456 789</p>
+			</div>
+		</div>
+	</div>
+	<div class="info info5">
+		<div class="inner">
+			<i class="fa fa-users"></i>
+			<div class="info-cont">
+				<span>Loyalty</span>
+				<p>Rewarded</p>
+			</div>
+		</div>
+	</div>
+
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - banner left sidebar</title>
+      <identifier>banner-sidebar</identifier>
+      <content><![CDATA[<div class="banner banner-sidebar">
+	<a href="#"><img src="{{media url="wysiwyg/banner/banner-left.jpg"}}" alt="" /></a>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Static categories</title>
+      <identifier>static-categories</identifier>
+      <content><![CDATA[<div class="static-categories">
+<div class="font-title cate-title">
+<h2>Featured Categories</h2>
+</div>
+<div class="cate-content">
+<div class="cate cate1">
+<div class="inner"><img src="{{media url="wysiwyg/static-content/cate1.jpg"}}" alt="" /> <a href="#">Watch</a></div>
+</div>
+<div class="cate cate2">
+<div class="inner"><img src="{{media url="wysiwyg/static-content/cate2.jpg"}}" alt="" /><a href="#">Bags</a></div>
+</div>
+<div class="cate cate3">
+<div class="inner"><img src="{{media url="wysiwyg/static-content/cate3.jpg"}}" alt="" /> <a href="#">Swimwear</a></div>
+</div>
+<div class="cate cate4">
+<div class="inner"><img src="{{media url="wysiwyg/static-content/cate4.jpg"}}" alt="" /> <a href="#">Shoes</a></div>
+</div>
+<div class="cate cate5">
+<div class="inner"><img src="{{media url="wysiwyg/static-content/cate5.jpg"}}" alt="" /> <a href="#">Fashion</a></div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Fashion image</title>
+      <identifier>listingtab-img1</identifier>
+      <content><![CDATA[<div class="listingtab-img"><a href="{{store url=""}}fashion.html"><img src="{{media url="wysiwyg/static-content/list-fashion.jpg"}}" alt="" /></a></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Electronic image</title>
+      <identifier>listingtab-img2</identifier>
+      <content><![CDATA[<div class="listingtab-img"><a href="{{store url=""}}electronic.html"><img src="{{media url="wysiwyg/static-content/list-electronic.jpg"}}" alt="" /></a></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Electronic image</title>
+      <identifier>listingtab-img3</identifier>
+      <content><![CDATA[<div class="listingtab-img"><a href="{{store url=""}}sport.html"><img src="{{media url="wysiwyg/static-content/list-sport.jpg"}}" alt="" /></a></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 1 banner 2</title>
+      <identifier>h1-banner2</identifier>
+      <content><![CDATA[<div class="h1-banner2-w">
+<div class="row">
+<div class="banner banner21 col-lg-6 col-md-6 col-sm-6 col-xs-12"><a href="#"><img src="{{media url="wysiwyg/banner/banner2-1.jpg"}}" alt="" /></a></div>
+<div class="banner banner22 col-lg-6 col-md-6 col-sm-6 col-xs-12"><a href="#"><img src="{{media url="wysiwyg/banner/banner2-2.jpg"}}" alt="" /></a></div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 1 banner 3</title>
+      <identifier>h1-banner3</identifier>
+      <content><![CDATA[<div class="h1-banner3"><a href="#"><img src="{{media url="wysiwyg/banner/banner3.jpg"}}" alt="" /></a></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Weekly products slider</title>
+      <identifier>weekly-slider</identifier>
+      <content><![CDATA[<div class="weekly-banner basic-banner"><a href="#"><img src="{{media url=&quot;wysiwyg/static-content/weekly-banner.jpg&quot;}}" alt=""></a></div>
+<div>{{block class="Sm\FilterProducts\Block\FilterProducts" template="Sm_FilterProducts::slider-index1.phtml" nb_rows="3" title_module="Weekly Products" display_countdown="0" product_source="best_sellers" select_category="97,98,99,100,101,102,103,104,105,106,107" product_order_by="name" product_order_dir="ASC" product_limitation="6"}}</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Featured products slider</title>
+      <identifier>featured-slider</identifier>
+      <content><![CDATA[<div class="featured-banner basic-banner"><a href="#"><img src="{{media url=&quot;wysiwyg/static-content/featured-banner.jpg&quot;}}" alt=""></a></div>
+<div>{{block class="Sm\FilterProducts\Block\FilterProducts" template="Sm_FilterProducts::slider-index1.phtml" nb_rows="3" title_module="Featured Products" display_countdown="0" product_source="lastest_products" select_category="97,98,99,100,101,102,103,104,105,106,107" product_order_by="name" product_order_dir="ASC" product_limitation="6"}}</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Blog</title>
+      <identifier>block-blog</identifier>
+      <content><![CDATA[<div class="from-blog">
+<div class="font-title home-title">
+<h2>From blog</h2>
+</div>
+<div class="list-blog">
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+<div class="blog-inner">
+<div class="blog-img">
+<div class="date"><span>20</span> May</div>
+<img src="{{media url="wysiwyg/blog/blog1.jpg"}}" alt="" /></div>
+<div class="blog-cont">
+<div class="blog-tit"><a href="#">Donec massa pellentesque placerat nisl laoreet placerat nisl</a></div>
+<div class="action">
+<div class="comment"><i class="fa fa-comments"></i> 12 comments</div>
+<div class="comment"><i class="fa fa-tags"></i> wedding, couples</div>
+</div>
+<div class="read-more"><a href="#"><i class="fa fa-caret-right"></i>Read More</a></div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+<div class="blog-inner">
+<div class="blog-img">
+<div class="date"><span>20</span> May</div>
+<img src="{{media url="wysiwyg/blog/blog2.jpg"}}" alt="" /></div>
+<div class="blog-cont">
+<div class="blog-tit"><a href="#">Donec massa pellentesque placerat nisl laoreet placerat nisl</a></div>
+<div class="action">
+<div class="comment"><i class="fa fa-comments"></i> 12 comments</div>
+<div class="comment"><i class="fa fa-tags"></i> wedding, couples</div>
+</div>
+<div class="read-more"><a href="#"><i class="fa fa-caret-right"></i>Read More</a></div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 last-item">
+<div class="blog-inner">
+<div class="blog-img">
+<div class="date"><span>20</span> May</div>
+<img src="{{media url="wysiwyg/blog/blog3.jpg"}}" alt="" /></div>
+<div class="blog-cont">
+<div class="blog-tit"><a href="#">Donec massa pellentesque placerat nisl laoreet placerat nisl</a></div>
+<div class="action">
+<div class="comment"><i class="fa fa-comments"></i> 12 comments</div>
+<div class="comment"><i class="fa fa-tags"></i> wedding, couples</div>
+</div>
+<div class="read-more"><a href="#"><i class="fa fa-caret-right"></i>Read More</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Categories left detail</title>
+      <identifier>categories-left</identifier>
+      <content><![CDATA[<div class="categories-left">{{block class="Sm\Categories\Block\Categories" template="Sm_Categories::default.phtml"}}</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 2 - banner 1</title>
+      <identifier>banner-home2-1</identifier>
+      <content><![CDATA[<div class="banner-home2-1">
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="banner banner1"><a href="#"><img src="{{media url="wysiwyg/banner/id2-banner1-1.jpg"}}" alt="" /></a></div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="banner banner2"><a href="#"><img src="{{media url="wysiwyg/banner/id2-banner1-2.jpg"}}" alt="" /></a></div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="banner banner3"><a href="#"><img src="{{media url="wysiwyg/banner/id2-banner1-3.jpg"}}" alt="" /></a></div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 2 - banner 2</title>
+      <identifier>banner-home2-2</identifier>
+      <content><![CDATA[<div class="banner-home2-2">
+<a href="#"><img src="{{media url="wysiwyg/banner/id2-banner2.jpg"}}" alt="" /></a>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - header 3 - top info</title>
+      <identifier>top-info-header</identifier>
+      <content><![CDATA[<div class="top-info"><a href="#">Free 3 day delivery and free returns within the US</a></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - header 3 - Call us</title>
+      <identifier>call-us-header</identifier>
+      <content><![CDATA[<div class="call-us">
+	<div class="inner">
+		<strong>Call Us Now:</strong> 0123 444 666
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 3 - banner 1</title>
+      <identifier>banner-home3-1</identifier>
+      <content><![CDATA[<div class="banner-home3-1">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 banner banner1">
+<div class="banner-img"><img src="{{media url="wysiwyg/banner/id3-banner1-1.jpg"}}" alt="" /> <a href="#">Shop for women</a></div>
+<div class="banner-info"><span>Depth in detail</span>
+<p>SHIRTING FAVORITES</p>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 banner banner2">
+<div class="banner-img"><img src="{{media url="wysiwyg/banner/id3-banner1-2.jpg"}}" alt="" /> <a href="#">Shop for men</a></div>
+<div class="banner-info"><span>Timeless icons</span>
+<p>HERRINGBONE PLAID SHIRTS</p>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 3 - banner 2</title>
+      <identifier>banner-home3-2</identifier>
+      <content><![CDATA[<div class="banner-home3-2">
+<div class="banner-title">
+<h2>Revo&reg; STYLE. HEAD TO TOE.</h2>
+<p>Every pair of jeans needs something great to go with them. And we&rsquo;ve got it all.</p>
+</div>
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 banner1-w">
+	<div class="banner banner1">
+		<img src="{{media url="wysiwyg/banner/ind3-banner2-1.jpg"}}" alt="" />
+		<ul>
+			<li>
+				<a href="#">
+					Shop sweatshirt
+				</a
+			</li>
+			<li>
+				<a href="#">
+					Shop jean
+				</a
+			</li>
+		</ul>		
+	</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 banner2-w">
+<div class="banner banner2"><a href="#"><img src="{{media url="wysiwyg/banner/ind3-banner2-2.jpg"}}" alt="" /></a></div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 banner3-w">
+<div class="banner banner3">	
+	<img src="{{media url="wysiwyg/banner/ind3-banner2-3.jpg"}}" alt="" />
+	<ul>
+		<li>
+			<a href="#">
+				Shop jackets & vest
+			</a
+		</li>
+		<li>
+			<a href="#">
+				Shop t-shirt
+			</a
+		</li>
+	</ul>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 3 - Blog</title>
+      <identifier>h3-block-blog</identifier>
+      <content><![CDATA[<div class="from-blog">
+<div class="font-title home-title">
+<h2>From blog</h2>
+<p>Every pair of jeans needs something great to go with them.</p>
+</div>
+<div class="list-blog">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+<div class="blog-inner">
+<div class="blog-img">
+<div class="date"><span>20</span> May</div>
+<img src="{{media url="wysiwyg/blog/blog5.jpg"}}" alt="" /></div>
+<div class="blog-cont">
+<div class="blog-tit"><a href="#">Donec massa pellentesque placerat nisl laoreet placerat nisl</a></div>
+<div class="action">
+<div class="comment"><i class="fa fa-comments"></i> 12 comments</div>
+<div class="comment"><i class="fa fa-tags"></i> wedding, couples</div>
+</div>
+<div class="read-more"><a href="#"><i class="fa fa-caret-right"></i>Read More</a></div>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+<div class="blog-inner">
+<div class="blog-img">
+<div class="date"><span>20</span> May</div>
+<img src="{{media url="wysiwyg/blog/blog4.jpg"}}" alt="" /></div>
+<div class="blog-cont">
+<div class="blog-tit"><a href="#">Donec massa pellentesque placerat nisl laoreet placerat nisl</a></div>
+<div class="action">
+<div class="comment"><i class="fa fa-comments"></i> 12 comments</div>
+<div class="comment"><i class="fa fa-tags"></i> wedding, couples</div>
+</div>
+<div class="read-more"><a href="#"><i class="fa fa-caret-right"></i>Read More</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 4 - static infos</title>
+      <identifier>h4-static-infos</identifier>
+      <content><![CDATA[<div class="static-infos font-title">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+<div class="info info1"><span>min 20% - 70% off</span>
+<p>on Sweatshirt</p>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+<div class="info info2"><span>get 20%* cashback</span>
+<p>via paytm wallet</p>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 4 - policy</title>
+      <identifier>block-policy</identifier>
+      <content><![CDATA[<div class="policy-w font-title">
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="policy policy1"><i class="fa fa-check"></i><span>Official Revo Shop</span> over 1100 products online</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="policy policy2"><i class="fa fa-check"></i><span>Free shipping and returns</span> for members</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="policy policy3"><i class="fa fa-check"></i><span>Same-day dispatch</span> before 8pm (Mon-Fri)</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 4 - static categories</title>
+      <identifier>h4-static-categories</identifier>
+      <content><![CDATA[<div class="static-categories">
+<div class="font-title cate-title">
+<h2>YOU&rsquo;LL LOVE THESE NEW STYLES</h2>
+<p>Every pair of jeans needs something great to go with them. And we&rsquo;ve got it all.</p>
+</div>
+<div class="cate-content">
+<div class="cate cate1">
+<div class="inner"><img src="{{media url="wysiwyg/static-content/id4-cate1.jpg"}}" alt="" /> <a href="#">Boys</a></div>
+</div>
+<div class="cate cate2">
+<div class="inner"><img src="{{media url="wysiwyg/static-content/id4-cate2.jpg"}}" alt="" /><a href="#">Girls</a></div>
+</div>
+<div class="cate cate3">
+<div class="inner"><img src="{{media url="wysiwyg/static-content/id4-cate3.jpg"}}" alt="" /> <a href="#">Toddler Boys</a></div>
+</div>
+<div class="cate cate4">
+<div class="inner"><img src="{{media url="wysiwyg/static-content/id4-cate4.jpg"}}" alt="" /> <a href="#">Toddler Girls</a></div>
+</div>
+<div class="cate cate5">
+<div class="inner"><img src="{{media url="wysiwyg/static-content/id4-cate5.jpg"}}" alt="" /> <a href="#">Baby</a></div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 4 - banner</title>
+      <identifier>banner-home4</identifier>
+      <content><![CDATA[<div class="banner-home4 font-title">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 banner-w">
+<div class="banner banner1">
+<div class="banner-img"><a href="#"><img src="{{media url="wysiwyg/banner/id4-banner1.jpg"}}" alt="" /></a></div>
+<div class="banner-text"><span>Divided</span>
+<p>reunited in style.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 banner-w">
+<div class="banner banner2">
+<div class="banner-img"><a href="#"><img src="{{media url="wysiwyg/banner/id4-banner2.jpg"}}" alt="" /></a></div>
+<div class="banner-text"><span>DEPTH IN DETAIL</span>
+<p>SHIRTING FAVORITES</p>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 banner-w">
+<div class="banner banner3">
+<div class="banner-img"><a href="#"><img src="{{media url="wysiwyg/banner/id4-banner3.jpg"}}" alt="" /></a></div>
+<div class="banner-text"><span>DEPTH IN DETAIL</span>
+<p>SHIRTING FAVORITES</p>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 4 - Blog</title>
+      <identifier>h4-block-blog</identifier>
+      <content><![CDATA[<div class="from-blog">
+<div class="font-title home-title">
+<h2>From the blog</h2>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+</div>
+<div class="list-blog">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+<div class="blog-inner">
+<div class="blog-img">
+<div class="date"><span>20</span> May</div>
+<img src="{{media url="wysiwyg/blog/blog6.jpg"}}" alt="" /></div>
+<div class="blog-cont">
+<div class="blog-tit"><a href="#">Donec massa pellentesque placerat nisl laoreet placerat nisl</a></div>
+<div class="action">
+<div class="comment"><i class="fa fa-comments"></i> 12 comments</div>
+<div class="comment"><i class="fa fa-tags"></i> wedding, couples</div>
+</div>
+<div class="read-more"><a href="#"><i class="fa fa-caret-right"></i>Read More</a></div>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+<div class="blog-inner">
+<div class="blog-img">
+<div class="date"><span>20</span> May</div>
+<img src="{{media url="wysiwyg/blog/blog7.jpg"}}" alt="" /></div>
+<div class="blog-cont">
+<div class="blog-tit"><a href="#">Donec massa pellentesque placerat nisl laoreet placerat nisl</a></div>
+<div class="action">
+<div class="comment"><i class="fa fa-comments"></i> 12 comments</div>
+<div class="comment"><i class="fa fa-tags"></i> wedding, couples</div>
+</div>
+<div class="read-more"><a href="#"><i class="fa fa-caret-right"></i>Read More</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 4 - video</title>
+      <identifier>block-video</identifier>
+      <content><![CDATA[<div class="video-w">
+<div class="font-title cate-title">
+<h2>The suede</h2>
+<p>Keeping it real smooth since 1986</p>
+</div>
+<iframe src="https://player.vimeo.com/video/39189996" width="100%" height="600" frameborder="0" allowfullscreen=""></iframe></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - footer 4 - find store</title>
+      <identifier>find-store</identifier>
+      <content><![CDATA[<div class="find-store f-top">
+<div class="block-title font-title"><i class="fa fa-map-marker"></i>Find your nearest store</div>
+<div class="block-content">
+<p>A contemporary grooming collection infused with the invigorating and sensual scent of Revoshop</p>
+<a href="#">find your store</a> <a class="active" href="#">Shop System</a></div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - footer 4 - follow us</title>
+      <identifier>follow-us</identifier>
+      <content><![CDATA[<div class="follow-us f-top">
+	<div class="block-title">
+		Follow us
+	</div>
+	<ul>
+		<li class="li-social facebook-social">
+			<a title="Facebook" href="http://www.facebook.com/MagenTech" target="_blank"> 
+				<i class="fa fa-facebook icon-social"></i>
+				<p>on</p>
+				<span class="name-social">Facebook</span> 
+			</a>
+		</li>
+				
+		<li class="li-social twitter-social">
+			<a title="Twitter" href="https://twitter.com/magentech" target="_blank"> 
+				<i class="fa fa-twitter icon-social"></i> 
+				<p>on</p>
+				<span class="name-social">Twitter</span> 
+			</a>
+		</li>
+				
+		<li class="li-social linkedin-social">
+			<a title="Linkedin" href="#" target="_blank"> 
+				<i class="fa fa-linkedin icon-social"></i> 
+				<p>on</p>
+				<span class="name-social">Linkedin</span> 
+			</a>
+		</li>
+				
+		<li class="li-social pinterest-social">
+			<a title="Pinterest" href="#" target="_blank"> 
+				<i class="fa fa-pinterest icon-social"></i> 
+				<p>on</p>
+				<span class="name-social">Pinterest</span> 
+			</a>
+		</li>
+	</ul>
+
+	<div class="app">
+		<a href="#"><img src="{{media url="wysiwyg/payment/app1.png"}}" alt="" /></a>
+		<a href="#"><img src="{{media url="wysiwyg/payment/app2.png"}}" alt="" /></a>
+	</div>
+
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - footer 4 - newsletter info</title>
+      <identifier>newsletter-info</identifier>
+      <content><![CDATA[<div class="block-title">
+		<i class="fa fa-envelope"></i>Newsletter
+	</div>
+	<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Blog</title>
+      <identifier>block-blog2</identifier>
+      <content><![CDATA[<div class="from-blog">
+<div class="font-title home-title">
+<h2>From blog</h2>
+</div>
+<div class="list-blog">
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+<div class="blog-inner">
+<div class="blog-img">
+<div class="date"><span>20</span> May</div>
+<img src="{{media url="wysiwyg/blog/blog2-1.jpg"}}" alt="" /></div>
+<div class="blog-cont">
+<div class="blog-tit"><a href="#">Donec massa pellentesque placerat nisl laoreet placerat nisl</a></div>
+<div class="action">
+<div class="comment"><i class="fa fa-comments"></i> 12 comments</div>
+<div class="comment"><i class="fa fa-tags"></i> wedding, couples</div>
+</div>
+<div class="read-more"><a href="#"><i class="fa fa-caret-right"></i>Read More</a></div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+<div class="blog-inner">
+<div class="blog-img">
+<div class="date"><span>20</span> May</div>
+<img src="{{media url="wysiwyg/blog/blog2-2.jpg"}}" alt="" /></div>
+<div class="blog-cont">
+<div class="blog-tit"><a href="#">Donec massa pellentesque placerat nisl laoreet placerat nisl</a></div>
+<div class="action">
+<div class="comment"><i class="fa fa-comments"></i> 12 comments</div>
+<div class="comment"><i class="fa fa-tags"></i> wedding, couples</div>
+</div>
+<div class="read-more"><a href="#"><i class="fa fa-caret-right"></i>Read More</a></div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 last-item">
+<div class="blog-inner">
+<div class="blog-img">
+<div class="date"><span>20</span> May</div>
+<img src="{{media url="wysiwyg/blog/blog2-3.jpg"}}" alt="" /></div>
+<div class="blog-cont">
+<div class="blog-tit"><a href="#">Donec massa pellentesque placerat nisl laoreet placerat nisl</a></div>
+<div class="action">
+<div class="comment"><i class="fa fa-comments"></i> 12 comments</div>
+<div class="comment"><i class="fa fa-tags"></i> wedding, couples</div>
+</div>
+<div class="read-more"><a href="#"><i class="fa fa-caret-right"></i>Read More</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - header 5 - banner promotion</title>
+      <identifier>id5-banner-promotion</identifier>
+      <content><![CDATA[<div class="banner-promotion">50% OFF IN-STOCK ITEMS* OR GO BIGGER - 60% OFF $3000+ WITH CODE magentech</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 5 -  static info top</title>
+      <identifier>static-info-top</identifier>
+      <content><![CDATA[<div class="static-info-top">
+	<ul>
+		<li>UP TO 50% OFF PILLOWS + THROWS</li>
+		<li>UP TO 50% OFF MIRRORS</li>
+		<li>30% OFF HOLIDAY DECOR</li>
+		<li>NEW ITEMS ADDED! UP TO 70% OFF MARKDOWNS</li>
+	</ul>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 5 - banner 1</title>
+      <identifier>id5-banner1</identifier>
+      <content><![CDATA[<div class="id5-banner1">
+	<a href="#"><img src="{{media url="wysiwyg/banner/id5-banner1.jpg"}}" alt="" /></a>
+</div>
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 5 - banner 2</title>
+      <identifier>id5-banner2</identifier>
+      <content><![CDATA[<div class="id5-banner2">
+	<div class="row">
+	<div class="banner banner2-1 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+		<a href="#"><img src="{{media url="wysiwyg/banner/id5-banner2-1.jpg"}}" alt="" /></a>
+	</div>
+	<div class="banner banner2-2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+		<a href="#"><img src="{{media url="wysiwyg/banner/id5-banner2-2.jpg"}}" alt="" /></a>
+	</div>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 5 - banner 3</title>
+      <identifier>id5-banner3</identifier>
+      <content><![CDATA[<div class="id5-banner3">
+	<a href="#"><img src="{{media url="wysiwyg/banner/id5-banner3.jpg"}}" alt="" /></a>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 5 New arrivals </title>
+      <identifier>id5-basicproducts</identifier>
+      <content><![CDATA[<div class="id5-basicproducts">{{block class="Sm\FilterProducts\Block\FilterProducts" template="Sm_FilterProducts::default-id5.phtml" title_module="New Arrivals" description="Every pair of jeans needs something great to go with them. And we’ve got it all." product_source="lastest_products" select_category="242" product_order_by="name" product_order_dir="ASC" product_limitation="4"}}
+<div class="btn-shopall"><a href="#">Shop all now</a></div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 5 - Lookbook</title>
+      <identifier>id5-lookbook</identifier>
+      <content><![CDATA[<div class="id5-lookbook">
+<div class="container">
+<div class="lb-title font-title"><span>Look book</span></div>
+<div class="lb-content">
+<p class="font-title">Every pair of decor needs something great <br />to go with them. And we&rsquo;ve got it all.</p>
+<div class="lb-btn"><a href="#">Take the look<i class="fa fa-angle-double-right"></i></a></div>
+<div class="lb-images"><a href="#"><img src="{{media url="wysiwyg/static-content/lookbook1.png"}}" alt="" /></a> <a href="#"><img src="{{media url="wysiwyg/static-content/lookbook2.png"}}" alt="" /></a></div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 5 - featured categories</title>
+      <identifier>id5-featured-cates</identifier>
+      <content><![CDATA[<div class="id5-featured-cates">
+<div class="row">
+<div class="cate cate1 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="cate-inner"><a class="cate-img" href="#"><img src="{{media url="wysiwyg/static-content/id5-cate1.jpg"}}" alt="" /></a>
+<div class="cate-bottom">
+<h3 class="font-title">On trend</h3>
+<p class="font-title">What&rsquo;s in, What&rsquo;s up<br />What we&rsquo;re in to</p>
+<a href="#">Shop all now<i class="fa fa-angle-double-right"></i></a></div>
+</div>
+</div>
+<div class="cate cate2 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="cate-inner"><a class="cate-img" href="#"><img src="{{media url="wysiwyg/static-content/id5-cate2.jpg"}}" alt="" /></a>
+<div class="cate-bottom">
+<h3 class="font-title">Room Tours</h3>
+<p class="font-title">Get the look,<br />make it yours</p>
+<a href="#">Shop all now<i class="fa fa-angle-double-right"></i></a></div>
+</div>
+</div>
+<div class="cate cate3 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="cate-inner"><a class="cate-img" href="#"><img src="{{media url="wysiwyg/static-content/id5-cate3.jpg"}}" alt="" /></a>
+<div class="cate-bottom">
+<h3 class="font-title">Roman &amp; Gothic Style</h3>
+<p class="font-title">What&rsquo;s in, What&rsquo;s up<br />What we&rsquo;re in to</p>
+<a href="#">Shop all now<i class="fa fa-angle-double-right"></i></a></div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo -home 5 - newsletter info</title>
+      <identifier>id5-newsletter-info</identifier>
+      <content><![CDATA[<p>Be the first to know about Revo special offers, new products , sale products and more and more....</p>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 6 - newsletter info</title>
+      <identifier>id6-newsletter-info</identifier>
+      <content><![CDATA[<p>Enter your email address for our mailing list to keep your self our lastest updated</p>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 5 - Footer My Account </title>
+      <identifier>id5-spotlight4</identifier>
+      <content><![CDATA[<div class="footer-block">
+<div class="footer-block-title">
+<h3>My Account</h3>
+</div>
+<div class="footer-block-content">
+<div class="socials-wrap">
+<div class="title-follow">Follow Us</div>
+<ul>
+<li class="li-social facebook-social"><a title="Facebook" href="http://www.facebook.com/MagenTech" target="_blank"> <span class="fa fa-facebook icon-social"></span><span class="name-social">Facebook</span> </a></li>
+<li class="li-social twitter-social"><a title="Twitter" href="https://twitter.com/magentech" target="_blank"> <span class="fa fa-twitter icon-social"></span> <span class="name-social">Twitter</span> </a></li>
+<li class="li-social google-social"><a title="Google+" href="https://plus.google.com/u/0/+Smartaddons" target="_blank"> <span class="fa fa-google-plus icon-social"></span> <span class="name-social">Google+</span> </a></li>
+<li class="li-social linkedin-social"><a title="Linkedin" href="#" target="_blank"> <span class="fa fa-linkedin icon-social"></span> <span class="name-social">Linkedin</span> </a></li>
+<li class="li-social pinterest-social"><a title="Pinterest" href="#" target="_blank"> <span class="fa fa-pinterest icon-social"></span> <span class="name-social">Pinterest</span> </a></li>
+<li class="li-social youtube-social"><a title="Youtube" href="#" target="_blank"> <span class="fa fa-youtube-play icon-social"></span> <span class="name-social">Youtube</span> </a></li>
+</ul>
+</div>
+</div>
+<div class="footer-block-title title2">
+<h3>Need Asistance ?</h3>
+</div>
+<p>0123456789</p>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - header 6 customer services</title>
+      <identifier>header6-services</identifier>
+      <content><![CDATA[<p>Customer Service: magentech@services.com</p>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 6 - banner1</title>
+      <identifier>id6-banner1</identifier>
+      <content><![CDATA[<div class="id6-banner1">
+<div class="row">
+<div class="banner1 col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href="#"><img src="{{media url="wysiwyg/banner/id6-banner1-1.jpg"}}" alt="" /></a></div>
+<div class="banner2 col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href="#"><img src="{{media url="wysiwyg/banner/id6-banner1-2.jpg"}}" alt="" /></a></div>
+<div class="banner3 col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href="#"><img src="{{media url="wysiwyg/banner/id6-banner1-3.jpg"}}" alt="" /></a></div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 6 - banner 2</title>
+      <identifier>id6-banner2</identifier>
+      <content><![CDATA[<div class="id6-banner2"><a href="#"><img src="{{media url="wysiwyg/banner/id6-banner2.jpg"}}" alt="" /></a></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 6 - banner 3</title>
+      <identifier>id6-banner3</identifier>
+      <content><![CDATA[<div class="id6-banner3">
+<div class="row">
+<div class="banner1 col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><img src="{{media url="wysiwyg/banner/id6-banner3-1.jpg"}}" alt="" /></a></div>
+<div class="banner2 col-lg-6 col-md-6 col-sm-6 col-xs-12"><a href="#"><img src="{{media url="wysiwyg/banner/id6-banner3-2.jpg"}}" alt="" /></a></div>
+<div class="banner3 col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><img src="{{media url="wysiwyg/banner/id6-banner3-3.jpg"}}" alt="" /></a></div>
+</div></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 6 - banner deals</title>
+      <identifier>id6-bannerdeals</identifier>
+      <content><![CDATA[<div class="id6-bannerdeals">
+<a href="#"><a href="#"><img src="{{media url="wysiwyg/banner/id6-banner-deal.jpg"}}" alt="" /></a>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 6 - Blog</title>
+      <identifier>id6-block-blog</identifier>
+      <content><![CDATA[<div class="from-blog">
+<div class="font-title home-title">
+<h2>From blog</h2>
+</div>
+<div class="list-blog">
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+<div class="blog-inner">
+<div class="blog-img">
+<div class="date"><span>20</span> May</div>
+<img src="{{media url="wysiwyg/blog/id6-blog1.jpg"}}" alt="" /></div>
+<div class="blog-cont">
+<div class="blog-tit"><a href="#">Donec massa pellentesque placerat nisl laoreet placerat nisl</a></div>
+<div class="action">
+<div class="comment"><i class="fa fa-comments"></i> 12 comments</div>
+<div class="comment"><i class="fa fa-tags"></i> wedding, couples</div>
+</div>
+<div class="read-more"><a href="#"><i class="fa fa-caret-right"></i>Read More</a></div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+<div class="blog-inner">
+<div class="blog-img">
+<div class="date"><span>20</span> May</div>
+<img src="{{media url="wysiwyg/blog/id6-blog2.jpg"}}" alt="" /></div>
+<div class="blog-cont">
+<div class="blog-tit"><a href="#">Donec massa pellentesque placerat nisl laoreet placerat nisl</a></div>
+<div class="action">
+<div class="comment"><i class="fa fa-comments"></i> 12 comments</div>
+<div class="comment"><i class="fa fa-tags"></i> wedding, couples</div>
+</div>
+<div class="read-more"><a href="#"><i class="fa fa-caret-right"></i>Read More</a></div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 last-item">
+<div class="blog-inner">
+<div class="blog-img">
+<div class="date"><span>20</span> May</div>
+<img src="{{media url="wysiwyg/blog/id6-blog3.jpg"}}" alt="" /></div>
+<div class="blog-cont">
+<div class="blog-tit"><a href="#">Donec massa pellentesque placerat nisl laoreet placerat nisl</a></div>
+<div class="action">
+<div class="comment"><i class="fa fa-comments"></i> 12 comments</div>
+<div class="comment"><i class="fa fa-tags"></i> wedding, couples</div>
+</div>
+<div class="read-more"><a href="#"><i class="fa fa-caret-right"></i>Read More</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - footer 6 - before footer</title>
+      <identifier>id6-before-footer</identifier>
+      <content><![CDATA[<div class="before-footer">
+  <div class="container">
+    <div class="bf-left">What does innovation mean to you ? Click here to see what it means to us</div>
+    <div class="bf-right"><a href="#">Get in touch</a></div>
+  </div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - footer 6 - spotlight 1</title>
+      <identifier>id6-spotlight1</identifier>
+      <content><![CDATA[<div class="id6-footer-desc">
+  <a class="logo-footer" href="#"><img src="{{media url="wysiwyg/id6-logo-footer.png"}}" alt="" /></a>
+  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old...</p>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - header7 - banner policy</title>
+      <identifier>id7-banner-policy</identifier>
+      <content><![CDATA[<div class="id7-banner-policy"><a href="#">Freeshipping and return for oders over $550.00. Visit Revo in usa</a></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - header 7 - find store</title>
+      <identifier>header7-findstore</identifier>
+      <content><![CDATA[<div class="header7-findstore">
+  <a href="#"><i class="fa fa-map-marker"></i>Find store</a>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - header 7 - static categories</title>
+      <identifier>header7-static-cates</identifier>
+      <content><![CDATA[<div class="header7-static-cates font-title">
+<div class="container">
+<ul>
+<li><a href="#">All</a></li>
+<li><a href="#">Best Seller</a></li>
+<li><a href="#">Recommend</a></li>
+<li><a href="#">Accessories</a></li>
+<li><a href="#">Refurbished</a></li>
+<li><a href="#">Hot Deals</a></li>
+<li><a href="#">Best Sales</a></li>
+</ul>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 7 - block banner 2</title>
+      <identifier>id7-block-banner2</identifier>
+      <content><![CDATA[<div class="id7-block-banner2">
+<ul>
+<li class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><img src="{{media url="wysiwyg/banner/id7-banner2.jpg"}}" alt="" /><a href="#">Discover<i class="fa fa-caret-right"></i> </a></li>
+<li class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><img src="{{media url="wysiwyg/banner/id7-banner3.jpg"}}" alt="" /><a href="#">Discover<i class="fa fa-caret-right"></i> </a></li>
+<li class="col-lg-4 col-md-4 hidden-sm col-xs-12"><img src="{{media url="wysiwyg/banner/id7-banner4.jpg"}}" alt="" /><a href="#">Discover<i class="fa fa-caret-right"></i> </a></li>
+</ul>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 7 - block banner 3</title>
+      <identifier>id7-block-banner3</identifier>
+      <content><![CDATA[<div class="id7-block-banner3">
+<a href="#"><img src="{{media url="wysiwyg/banner/id7-banner5.jpg"}}" alt="" /></a>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 7 - static content 1</title>
+      <identifier>id7-static-content1</identifier>
+      <content><![CDATA[<div class="id7-static-content static-content1">
+<div class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
+<div class="st-content font-title">
+<div class="st-title">day <span>to</span> night</div>
+<p>The first of the month is coming, we have to get money, we have no choice. It cost money to eat and they don&rsquo;t want you to eat. Learning is cool, but knowing is better,</p>
+<a href="#">Shop day to night</a></div>
+</div>
+<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12"><a href="#"><img src="{{media url="wysiwyg/banner/id7-static1.jpg"}}" alt="" /></a></div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 7 - static content 2</title>
+      <identifier>id7-static-content2</identifier>
+      <content><![CDATA[<div class="id7-static-content static-content2">
+<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12"><a href="#"><img src="{{media url="wysiwyg/banner/id7-static2.jpg"}}" alt="" /></a></div>
+<div class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
+<div class="st-content font-title">
+<div class="st-title"><span>Party</span><br /> down</div>
+<p>The first of the month is coming, we have to get money, we have no choice. It cost money to eat and they don&rsquo;t want you to eat. Learning is cool, but knowing is better,</p>
+<a href="#">Shop party down</a></div>
+</div>
+
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 7 - static content 3</title>
+      <identifier>id7-static-content3</identifier>
+      <content><![CDATA[<div class="id7-static-content static-content3">
+<div class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
+<div class="st-content font-title">
+<div class="st-title">Show <span>and</span> tell</div>
+<p>The first of the month is coming, we have to get money, we have no choice. It cost money to eat and they don&rsquo;t want you to eat. Learning is cool, but knowing is better,</p>
+<a href="#">Shop show &amp; tell</a></div>
+</div>
+<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12"><a href="#"><img src="{{media url="wysiwyg/banner/id7-static3.jpg"}}" alt="" /></a></div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 7 - block blog</title>
+      <identifier>id7-block-blog</identifier>
+      <content><![CDATA[<div class="from-blog">
+<div class="font-title home-title">
+<h2>From blog</h2>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+</div>
+<div class="list-blog">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+<div class="blog-inner">
+<div class="blog-img">
+<div class="date"><span>20</span> May</div>
+<img src="{{media url="wysiwyg/blog/id7-blog1.jpg"}}" alt="" /></div>
+<div class="blog-cont">
+<div class="blog-tit"><a href="#">Donec massa pellentesque placerat nisl laoreet placerat nisl</a></div>
+<div class="action">
+<div class="comment"><i class="fa fa-comments"></i> 12 comments</div>
+<div class="comment"><i class="fa fa-tags"></i> wedding, couples</div>
+</div>
+<div class="read-more"><a href="#"><i class="fa fa-caret-right"></i>Read More</a></div>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+<div class="blog-inner">
+<div class="blog-img">
+<div class="date"><span>20</span> May</div>
+<img src="{{media url="wysiwyg/blog/id7-blog2.jpg"}}" alt="" /></div>
+<div class="blog-cont">
+<div class="blog-tit"><a href="#">Donec massa pellentesque placerat nisl laoreet placerat nisl</a></div>
+<div class="action">
+<div class="comment"><i class="fa fa-comments"></i> 12 comments</div>
+<div class="comment"><i class="fa fa-tags"></i> wedding, couples</div>
+</div>
+<div class="read-more"><a href="#"><i class="fa fa-caret-right"></i>Read More</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - footer 7 - Contact us</title>
+      <identifier>footer7-contactus</identifier>
+      <content><![CDATA[<div class="footer-block">
+  <div class="footer-block-title">
+    <h3>Need help ? Contact Us</h3>
+  </div>
+  <div class="footer-block-content">
+    <p>Our team of style experts are here to help Monday to Friday, from 9am - 7pm , Saturday 9am - 5pm</p>
+    <ul class="links-contact">
+      <li class="add-icon">Address: No 40 Baria Sreet 133/2 NewYork City, NY, United States</li>
+      <li class="email-icon middle-content">Email: contact@revo.com</li>
+      <li class="phone-icon">Phone 1 : 0123456789<br />Phone 2 : 0123456789</li>
+    </ul>
+  </div>
+</div>
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - footer 7 - newsletter infos</title>
+      <identifier>id7-newsletter-info</identifier>
+      <content><![CDATA[<p>Receive style news and promotion updates.</p>
+<p class="hightlight">Sale Off 50% on your first order*</p>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - footer 7 - apps</title>
+      <identifier>footer7-apps</identifier>
+      <content><![CDATA[<div class="footer-apps footer-block">
+  <div class="footer-block-title">
+    <h3>Join our apps</h3>
+  </div>
+  <ul>
+    <li><a href="#"><img src="{{media url="wysiwyg/payment/f7-app1.png"}}" alt="" /></a></li>
+    <li><a href="#"><img src="{{media url="wysiwyg/payment/f7-app2.png"}}" alt="" /></a></li>
+  </ul>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 7 - slider videos</title>
+      <identifier>id7-slider-videos</identifier>
+      <content><![CDATA[<div class="slider-video-w">
+<div class="slider-video">
+<div class="item"><iframe src="https://player.vimeo.com/video/106621097" width="100%" height="455" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="item"><iframe src="https://player.vimeo.com/video/39189996" width="100%" height="455" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="item"><iframe src="https://player.vimeo.com/video/106621097" width="100%" height="455" frameborder="0" allowfullscreen=""></iframe></div>
+</div>
+<script type="text/javascript">
+	require([
+		'jquery',
+		'owlcarousel'
+	], function ($) {
+                var slider_video = $(".slider-video-w .slider-video");
+                slider_video.owlCarousel({    
+                margin:0,
+                nav: false,
+                loop:true,
+                dots: true,
+                responsive:{
+                        0:{
+                            items:1
+                        },
+                        480:{
+                            items:1
+                        },
+                        768:{
+                            items:1
+                        },
+                        992:{
+                            items:1
+                        },
+                        1200:{
+                            items:1
+                        },
+                    },
+            })
+        });
+</script>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - home 7 - block banner 1</title>
+      <identifier>id7-block-banner1</identifier>
+      <content><![CDATA[<div class="id7-block-banner1"><img src="{{media url="wysiwyg/banner/id7-banner1.jpg"}}" alt="" /><a href="#">Discover<i class="fa fa-caret-right"></i> </a></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Contact info</title>
+      <identifier>contact-info</identifier>
+      <content><![CDATA[            <div class="contact-info">
+                <div class="title-bonus-page">
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="contact-content">
+                    <p class="contact-description">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam<br /> Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat sed do eiusmod tempor incididunt ut labore dolore</p>
+                    <ul class="address-info">
+                        <li class="add-icon">123 Suspendis mattis, Sollicitudin District,<br />Accums Fringilla</li>
+                        <li class="email-icon">Email: <a title="Send Email" href="mailto:support@domainstore.com">support@domainstore.com</a></li>
+                        <li class="phone-icon">Hotline: <a title="Call" href="tel:0123456789">0123456789</a></li>
+                    </ul>
+                </div>
+            </div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Sub Deal Slider</title>
+      <identifier>sub-deal-slider</identifier>
+      <content><![CDATA[<div>{{block class="Sm\FilterProducts\Block\FilterProducts" template="Sm_FilterProducts::sub-deal-slider.phtml" product_source="special_products" select_category="" product_order_by="name" product_order_dir="ASC" product_limitation="8"}}</div>
+
+<script>
+					require([
+						'jquery',
+						'owlcarousel'
+					], function ($) {
+						var owl_upsell = $(".featured-deals-w");
+						owl_upsell.owlCarousel({
+
+							responsive: {
+								0: {
+									items: 1
+								},
+								480: {
+									items: 1
+								},
+								768: {
+									items: 1
+								},
+								992: {
+									items: 1
+								},
+								1200: {
+									items: 1
+								}
+							},
+
+							autoplay: false,
+							loop: false,
+							nav: true,
+							dots: false,
+							autoplaySpeed: 500,
+							navSpeed: 500,
+							dotsSpeed: 500,
+							autoplayHoverPause: true,
+							margin: 30,
+
+						});
+					});
+				</script>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Slidershow Index 2</title>
+      <identifier>slidershow-id2</identifier>
+      <content><![CDATA[<div class="image-slider-home">
+<div class="sm-imageslider theme1">
+<div class="sm-imageslider-inner theme1">
+<div class="sm-imageslider-content slidershow-id2 owl-carousel owl-theme">
+<div class="item"><a href="#"><img src="{{media url=&quot;wysiwyg/imageslider/id2-slide1.jpg&quot;}}" alt="Banner Image"></a></div>
+<div class="item"><a href="#"><img src="{{media url=&quot;wysiwyg/imageslider/id2-slide2.jpg&quot;}}" alt="Banner Image"></a></div>
+<div class="item"><a href="#"><img src="{{media url=&quot;wysiwyg/imageslider/id2-slide3.jpg&quot;}}" alt="Banner Image"></a></div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Slidershow Index 3</title>
+      <identifier>slidershow-id3</identifier>
+      <content><![CDATA[<div class="image-slider-home">
+	<div class="sm-imageslider theme2">
+		<div class="sm-imageslider-inner theme2">
+			<div class="sm-imageslider-content slidershow-id3 owl-carousel owl-theme">
+				<div class="item">
+					<div class="item-image">
+						<a href="#"><img src="{{media url="wysiwyg/imageslider/id3-slide1.jpg"}}" alt="Banner Image"></a>
+					</div>
+					
+					<div class="item-info"> <div class="item-desc font-title"><div class="item-desc-inner"><h3>FALL AHEAD</h3> 		<h2>NEW ARRIVALS</h2> 		<p>Shift into a new season with all<br> our newest styles. </p> 		 			<a href="#" class="slide-btn">shop for women</a> 			<a href="#" class="slide-btn">shop for men</a></div></div> </div>
+				</div>
+				
+				<div class="item">
+					<div class="item-image">
+						<a href="#"><img src="{{media url="wysiwyg/imageslider/id3-slide2.jpg"}}" alt="Banner Image"></a>
+					</div>
+					
+					<div class="item-info"> <div class="item-desc font-title"><div class="item-desc-inner"><h3 class="cont-w">FALL AHEAD</h3> 	<h2 class="cont-w">NEW ARRIVALS</h2>   	<a href="#" class="slide-btn">shop for women</a> 	<a href="#" class="slide-btn">shop for men</a></div></div> </div>
+				</div>
+				
+				<div class="item">
+					<div class="item-image">
+						<a href="#"><img src="{{media url="wysiwyg/imageslider/id3-slide3.jpg"}}" alt="Banner Image"></a>
+					</div>
+					
+					<div class="item-info"> <div class="item-desc font-title"><div class="item-desc-inner"><h3 class="cont-w">FALL AHEAD</h3> 	<h2 class="cont-w">NEW ARRIVALS</h2>   	<a href="#" class="slide-btn">shop for women</a> 	<a href="#" class="slide-btn">shop for men</a></div></div> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Slidershow Index 1</title>
+      <identifier>slidershow-id1</identifier>
+      <content><![CDATA[<div class="image-slider-home">
+			<div class="sm-imageslider theme1">
+				<div class="sm-imageslider-inner theme1">
+					<div class="sm-imageslider-content owl-carousel owl-theme">
+						<div class="item">
+							<a href="#"><img src="{{media url="wysiwyg/imageslider/image-banner-1.jpg"}}" alt="Banner Image" /></a>
+						</div>
+						
+						<div class="item">
+							<a href="#"><img src="{{media url="wysiwyg/imageslider/image-banner-2.jpg"}}" alt="Banner Image" /></a>
+						</div>
+						
+						<div class="item">
+							<a href="#"><img src="{{media url="wysiwyg/imageslider/image-banner-3.jpg"}}" alt="Banner Image" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Slidershow Index 4</title>
+      <identifier>slidershow-id4</identifier>
+      <content><![CDATA[<div class="image-slider-home">
+			<div class="sm-imageslider theme2">
+				<div class="sm-imageslider-inner theme2">
+					<div class="sm-imageslider-content slidershow-id4 owl-carousel owl-theme">
+						<div class="item">
+							<div class="item-image">
+								<a href="#"><img src="{{media url="wysiwyg/imageslider/id4-slide1.jpg"}}" alt="Banner Image"></a>
+							</div>
+							
+							<div class="item-info"> <div class="item-desc font-title"><div class="item-desc-inner"><h3>FALL AHEAD</h3> 	<h2>NEW<br>ARRIVALS</h2>  	<a href="#" class="slide-btn">shop for girls</a> 	<a href="#" class="slide-btn">shop for boys</a></div></div> </div>
+						</div>
+						
+						<div class="item">
+							<div class="item-image">
+								<a href="#"><img src="{{media url="wysiwyg/imageslider/id4-slide2.jpg"}}" alt="Banner Image"></a>
+							</div>
+							
+							<div class="item-info"> <div class="item-desc font-title"><div class="item-desc-inner"><h3>FALL AHEAD</h3> 	<h2>NEW<br>ARRIVALS</h2>  	<a href="#" class="slide-btn">shop for girls</a> 	<a href="#" class="slide-btn">shop for boys</a></div></div> </div>
+						</div>
+						
+						<div class="item">
+							<div class="item-image">
+								<a href="#"><img src="{{media url="wysiwyg/imageslider/id4-slide3.jpg"}}" alt="Banner Image"></a>
+							</div>
+							
+							<div class="item-info"> <div class="item-desc font-title"><div class="item-desc-inner"><h3>FALL AHEAD</h3> 	<h2>NEW<br>ARRIVALS</h2>  	<a href="#" class="slide-btn">shop for girls</a> 	<a href="#" class="slide-btn">shop for boys</a></div></div> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Slidershow Index 5</title>
+      <identifier>slidershow-id5</identifier>
+      <content><![CDATA[<div class="image-slider-home">
+		<div class="sm-imageslider theme2">
+		<div class="sm-imageslider-inner theme2">
+		<div class="sm-imageslider-content slidershow-id5 owl-carousel owl-theme">
+		
+		<div class="item">
+			<div class="item-image"><a href="#"><img src="{{media url=&quot;wysiwyg/imageslider/id5-slide1.jpg&quot;}}" alt="Banner Image"></a></div>
+		</div>
+		
+		<div class="item">
+			<div class="item-image"><a href="#"><img src="{{media url=&quot;wysiwyg/imageslider/id5-slide2.jpg&quot;}}" alt="Banner Image"></a></div>
+		</div>
+		
+		<div class="item">
+			<div class="item-image"><a href="#"><img src="{{media url=&quot;wysiwyg/imageslider/id5-slide3.jpg&quot;}}" alt="Banner Image"></a></div>
+		</div>
+		
+		</div>
+		</div>
+		</div>
+	</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Revo - Slidershow Index 6</title>
+      <identifier>slidershow-id6</identifier>
+      <content><![CDATA[<div class="sm-imageslider theme1">
+		<div class="sm-imageslider-inner theme1">
+			<div class="sm-imageslider-content owl-carousel owl-theme">
+				<div class="item">
+					<a href="#"><img src="{{media url="wysiwyg/imageslider/id6-slide1.jpg"}}" alt="Banner Image" /></a>
+				</div>
+				
+				<div class="item">
+					<a href="#"><img src="{{media url="wysiwyg/imageslider/id6-slide3.jpg"}}" alt="Banner Image" /></a>
+				</div>
+				
+				<div class="item">
+					<a href="#"><img src="{{media url="wysiwyg/imageslider/id6-slide3.jpg"}}" alt="Banner Image" /></a>
+				</div>
+			</div>
+		</div>
+	</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+  </blocks>
+</root>

@@ -1,0 +1,60 @@
+<?php
+$value=$this->getDulieu();
+?>
+
+<form id="form-question" method="POST" role="form" action="<?= $this->getUrl('giftcard/index/save'); ?>">
+    <legend>Form Edit</legend>
+        <input type="hidden" class="form-control" name="giftcard_id" value="<?php echo $value['giftcard_id']?>">
+    <div class="form-group">
+        <label for="">Code</label>
+        <input type="text" class="form-control" name="code" data-validate="{required:true}" value="<?php echo $value['code']?>">
+    </div>
+
+    <div class="form-group">
+        <label for="">Balance</label>
+        <input type="number" class="form-control" name="balance" data-validate="{required:true}" value="<?php echo $value['balance']?>">
+    </div>
+
+    <div class="form-group">
+        <label for="">Amount Used</label>
+        <input type="number" class="form-control" name="amount_used" data-validate="{required:true}" value="<?php echo $value['amount_used']?>">
+    </div>
+
+    <div class="form-group">
+        <label for="">Create From</label>
+        <input type="text" class="form-control" name="create_from" data-validate="{required:true}" value="<?php echo $value['create_from']?>">
+    </div>
+    <button type="submit" class="btn btn-primary">Edit</button>
+    <button><a href="http://localhost.com/magento231/giftcard/index/test/" class="btn btn-primary">Black</a></button>
+
+</form>
+
+<script type="text/x-magento-init">
+{
+    "#form-question": {
+        "validation": {}
+    }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

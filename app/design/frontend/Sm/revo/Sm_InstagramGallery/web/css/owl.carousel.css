@@ -1,0 +1,240 @@
+/* 
+ *  Owl Carousel - Animate Plugin
+ */
+.owl2-carousel .animated {
+    animation-duration: 1000ms;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.owl2-carousel .owl2-animated-in {
+    z-index: 0;
+}
+
+.owl2-carousel .owl2-animated-out {
+    z-index: 1;
+}
+
+.owl2-carousel .fadeOut {
+    animation-name: fadeOut;
+    -webkit-animation-name: fadeOut;
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* 
+ * 	Owl Carousel - Auto Height Plugin
+ */
+.owl2-height {
+    transition: height 500ms ease-in-out;
+    -moz-transition: height 500ms ease-in-out;
+    -ms-transition: height 500ms ease-in-out;
+    -o-transition: height 500ms ease-in-out;
+    -webkit-transition: height 500ms ease-in-out;
+}
+
+/* 
+ *  Core Owl Carousel CSS File
+ */
+.owl2-carousel {
+    /*display: none;*/
+    position: relative;
+    width: 100%;
+    /* position relative and z-index fix webkit rendering fonts issue */
+    z-index: 1;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.owl2-carousel .owl2-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+}
+
+.owl2-carousel .owl2-stage:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.owl2-carousel .owl2-stage-outer {
+    overflow: hidden;
+    position: relative;
+    /* fix for flashing background */
+    -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+.owl2-carousel .owl2-controls .owl2-nav .owl2-prev,
+.owl2-carousel .owl2-controls .owl2-nav .owl2-next,
+.owl2-carousel .owl2-controls .owl2-dot {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.owl2-carousel.owl2-loaded {
+    display: block;
+}
+
+.owl2-carousel.owl2-loading {
+    display: block;
+    opacity: 0;
+}
+
+.owl2-carousel.owl2-hidden {
+    opacity: 0;
+}
+
+.owl2-carousel .owl2-refresh .owl2-item {
+    /*display: none;*/
+}
+
+.owl2-carousel .owl2-item {
+    float: left;
+    min-height: 1px;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.owl2-carousel .owl2-item img {
+    /*display: block;*/
+    /*width: 100%;*/
+    -webkit-transform-style: preserve-3d;
+}
+
+.owl2-carousel.owl2-text-select-on .owl2-item {
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+}
+
+.owl2-carousel .owl2-grab {
+    cursor: move;
+    cursor: -webkit-grab;
+    cursor: -o-grab;
+    cursor: -ms-grab;
+    cursor: grab;
+}
+
+.owl2-carousel.owl2-rtl {
+    direction: rtl;
+}
+
+.owl2-carousel.owl2-rtl .owl2-item {
+    float: right;
+}
+
+/* No Js */
+.no-js .owl2-carousel {
+    display: block;
+}
+
+/* 
+ * 	Owl Carousel - Lazy Load Plugin
+ */
+.owl2-carousel .owl2-item .owl2-lazy {
+    opacity: 0;
+    transition: opacity 400ms ease;
+    -moz-transition: opacity 400ms ease;
+    -ms-transition: opacity 400ms ease;
+    -o-transition: opacity 400ms ease;
+    -webkit-transition: opacity 400ms ease;
+}
+
+.owl2-carousel .owl2-item img {
+    transform-style: preserve-3d;
+}
+
+/* 
+ * 	Owl Carousel - Video Plugin
+ */
+.owl2-carousel .owl2-video-wrapper {
+    background: #000;
+    height: 100%;
+    position: relative;
+}
+
+.owl2-carousel .owl2-video-play-icon {
+    background: url("owl.video.play.png") no-repeat;
+    cursor: pointer;
+    height: 80px;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: -40px;
+    position: absolute;
+    top: 50%;
+    transition: scale 100ms ease;
+    -moz-transition: scale 100ms ease;
+    -ms-transition: scale 100ms ease;
+    -o-transition: scale 100ms ease;
+    -webkit-transition: scale 100ms ease;
+    width: 80px;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;
+}
+
+.owl2-carousel .owl2-video-play-icon:hover {
+    transition: scale(1.3, 1.3);
+    -moz-transition: scale(1.3, 1.3);
+    -ms-transition: scale(1.3, 1.3);
+    -o-transition: scale(1.3, 1.3);
+    -webkit-transition: scale(1.3, 1.3);
+}
+
+.owl2-carousel .owl2-video-playing .owl2-video-tn,
+.owl2-carousel .owl2-video-playing .owl2-video-play-icon {
+    /*display: none;*/
+}
+
+.owl2-carousel .owl2-video-tn {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 400ms ease;
+    -moz-transition: opacity 400ms ease;
+    -ms-transition: opacity 400ms ease;
+    -o-transition: opacity 400ms ease;
+    -webkit-transition: opacity 400ms ease;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+}
+
+.owl2-carousel .owl2-video-frame {
+    position: relative;
+    z-index: 1;
+}

@@ -1,0 +1,210 @@
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header-style-5 {
+
+    }
+}
+
+.header-style-1 .search-btn-device {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .header-style-5 {
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-style-5 {
+        .searchbox-header {
+            width: 90%;
+        }
+
+        .navigation-mobile-container {
+            display: block;
+        }
+
+        .main-menu .menu-content {
+            display: none;
+        }
+
+        .btn-mobile .button-mobile {
+            font-size: 25px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header-style-5 {
+        .socials-wrap,
+        .banner-promotion {
+            display: none;
+        }
+
+        .header-bottom {
+            height: 47px;
+        }
+
+        .logo-wrapper {
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .header-middle {
+            padding-bottom: 0;
+            padding-top: 35px;
+        }
+
+        //MENU
+        .navigation-mobile-container {
+            display: block;
+        }
+
+        .menu-content-sidebar .btn-menu,
+        .main-menu .menu-content {
+            display: none;
+        }
+
+        .btn-mobile .button-mobile {
+            font-size: 21px;
+            padding-top: 6px;
+            color: #fff;
+
+            &:hover {
+                color: #3b3b3b;
+            }
+        }
+
+        .collapse-type .navigation-mobile {
+            width: 250px;
+        }
+
+        .sidebar-menu .menu-content-sidebar .main-menu {
+            background-color: transparent;
+            width: auto;
+        }
+
+        //search
+        .search-btn-device {
+            display: block;
+            width: 38px;
+            height: 38px;
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+            line-height: 38px;
+        }
+
+        .searchbox-header {
+            position: relative;
+            z-index: 9;
+            top: 41px;
+            float: right;
+            width: auto;
+            margin: 0px;
+
+            &:hover {
+                cursor: pointer;
+
+                .search-wrapper {
+                    .effect-block-show();
+                }
+            }
+
+            .search-wrapper {
+                position: absolute;
+                top: 43px;
+                right: 0;
+                width: 270px;
+                z-index: 2;
+                .effect-block-hide();
+            }
+
+            .sm-searchbox .sm-searchbox-content {
+                border: none;
+
+                .control {
+                    float: left;
+
+                    .searchbox-cat {
+                        display: none;
+                    }
+
+                    #searchbox {
+                        height: 38px !important;
+                        width: 220px !important;
+                        padding-left: 20px !important;
+                        padding-right: 20px !important;
+                        .border_radius(0) !important;
+                        border: 1px solid #ddd;
+                    }
+                }
+
+                .actions {
+                    float: left;
+
+                    .btn-searchbox {
+                        width: 50px;
+                        position: static;
+                        height: 38px;
+                        .border_radius(0) !important;
+                    }
+                }
+            }
+        }
+
+        // cart
+        .minicart-wrapper {
+            margin-top: 0;
+
+            .mage-dropdown-dialog {
+                right: 15px !important;
+            }
+        }
+
+        .minicart-wrapper .block-minicart {
+            right: -15px !important;
+        }
+
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .header-style-5 {
+        .header-top2 {
+            float: right;
+            margin-top: -43px;
+            width: 56%;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .header-style-5 .minicart-wrapper .block-minicart {
+        right: -15px !important;
+        width: 290px !important;
+    }
+
+    .header-top1 {
+        float: left;
+        width: auto;
+        padding-right: 0;
+    }
+
+    .header-top2 {
+        float: right;
+        width: auto;
+        padding-left: 0;
+    }
+
+    .header-style-5 .header-top .language-wrapper .switcher-trigger strong span,
+    .header-style-5 .header-top .dropdown-block .myaccount-link span,
+    .header-style-5 .minicart-wrapper .action.showcart .text .df-text {
+        display: none;
+    }
+
+}

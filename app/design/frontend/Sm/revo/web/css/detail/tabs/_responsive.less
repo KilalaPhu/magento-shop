@@ -1,0 +1,40 @@
+﻿.resp-tab-content {
+    padding: 30px;
+    border: 1px solid #e8e8e8;
+}
+
+/*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
+@media only screen and (max-width: 768px) {
+    .default-style .resp-tabs-list {
+        li {
+            float: none;
+            width: 100%;
+            border-bottom: 1px solid #e8e8e8;
+            border-right: none;
+        }
+    }
+
+    .vertical-style {
+        .resp-tabs-container {
+            margin-left: 0;
+            clear: both;
+            left: auto;
+            min-height: auto;
+        }
+    }
+
+    .vertical-style ul.resp-tabs-list {
+        float: none;
+        width: 100%;
+    }
+
+    .vertical-style .resp-tabs-list li {
+        padding: 15px 20px !important;
+    }
+
+    .resp-tab-content {
+        padding: 20px !important;
+        min-height: auto !important;
+    }
+
+}

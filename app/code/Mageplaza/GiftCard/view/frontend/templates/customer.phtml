@@ -1,0 +1,103 @@
+<?php
+$collection=$this->getDulieu();
+$data_cus = $this->getCustomer();
+$balence = $data_cus['giftcard_balance'];
+?>
+
+<style>
+    .li{
+        float: left;
+        list-style: none;
+    }
+
+</style>
+<div style="font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:20px; ">Giftcard Information</div>
+<hr width="900px" style="position: relative;right: 45px;">
+<br>
+<div>
+    <div style="float: left;">
+        <b>Blance</b>
+        <br>
+        <br>
+        <label><?php echo $this->getFormatedPrice($balence)?></label>
+    </div>
+    <?php if($this->getRedeem()) :?>
+        <form id="form-question" style="float: right" action="<?php echo $this->getUrl('giftcard/history/save') ?>" method="post">
+        <b style="position: relative;left: -150px;">Redeem</b>
+        <br>
+        <br>
+        <ul style="position: relative;left:-190px">
+            <li class="li">
+             <input type="text" name="code" placeholder="Enter gift card code " style="padding: 0 10px; " required>
+            </li>
+            <li class="li">
+                <button type="submit" value="Submit" class="action primary">Reedem</button>
+            </li>
+        </ul>
+    </form>
+
+    <?php endif ?>
+
+</div>
+
+
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th>Date</th>
+        <th>Code</th>
+        <th>Amount</th>
+        <th>action</th>
+    </tr>
+    </thead>
+    <?php foreach ($collection as $value) : ?>
+        <tbody>
+        <tr>
+            <td><?php echo $this->getTime($value['action_time'])?></td>
+            <td><?php echo $value['code']?></td>
+            <td><?php echo $this->getFormatedPrice($value['amount'])?></td>
+            <td><?php echo $value['action']?></td>
+        </tr>
+        </tbody>
+    <?php endforeach ?>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

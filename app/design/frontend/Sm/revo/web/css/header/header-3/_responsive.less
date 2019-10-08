@@ -1,0 +1,135 @@
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header-style-3 {
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-style-3 {
+        .navigation-mobile-container {
+            display: block;
+        }
+
+        .main-menu .menu-content {
+            display: none;
+        }
+
+        .btn-mobile .button-mobile {
+            font-size: 25px;
+        }
+
+        .search-w {
+            top: -32px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header-style-3 {
+        .navigation-mobile-container {
+            display: block;
+        }
+
+        .main-menu .menu-content {
+            display: none;
+        }
+
+        .btn-mobile .button-mobile {
+            font-size: 25px;
+        }
+
+        .header-top {
+            .header-top-links .dropdown-block.block-login,
+            .customer-action-header {
+                display: none;
+            }
+
+            .header-top-links .call-us {
+                display: none;
+            }
+        }
+
+        .header-middle {
+            padding: 0;
+
+            .header-wishlist {
+                display: none;
+            }
+
+            .logo-wrapper {
+                margin-top: 30px;
+            }
+
+            .header-middle1 {
+                margin-top: -35px;
+            }
+
+            .minicart-header {
+                position: relative;
+                z-index: 2;
+                top: 39px;
+                right: 35px;
+
+                .minicart-wrapper {
+                    margin-top: 0;
+
+                    .action.showcart {
+                        background-color: transparent;
+                    }
+                }
+
+                .cart-wrapper .mage-dropdown-dialog {
+                    right: -35px;
+                    top: 31px;
+                }
+
+                .minicart-wrapper .action.showcart::before {
+                    color: #fff;
+                }
+
+                .minicart-wrapper .action.showcart .counter.qty {
+                    background-color: #fff;
+                }
+            }
+        }
+
+        .search-w {
+            z-index: 3;
+            top: -30px;
+
+            .search-wrapper {
+                top: -7px;
+            }
+
+            .search-button {
+                width: 35px;
+                padding: 0 !important;
+
+                i {
+                    color: #fff;
+                    padding-left: 7px;
+                    font-size: 18px;
+                }
+
+                span {
+                    display: none;
+                }
+            }
+
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .header-style-3 {
+
+        .minicart-wrapper .block-minicart {
+            right: 0;
+            width: 290px !important;
+        }
+    }
+}

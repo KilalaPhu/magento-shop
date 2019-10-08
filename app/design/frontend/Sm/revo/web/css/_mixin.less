@@ -1,0 +1,263 @@
+// Opacity
+
+.opacity(@opacity) {
+    opacity: @opacity;
+    // IE8 filter
+    @opacity-ie: (@opacity * 100);
+    filter: ~"alpha(opacity=@{opacity-ie})";
+}
+
+.placeholder(@color: @input-color-placeholder) {
+    // Firefox
+    &::-moz-placeholder {
+        color: @color;
+        opacity: 1; // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526
+    }
+    &:-ms-input-placeholder {
+        color: @color;
+    }
+    // Internet Explorer 10+
+    &::-webkit-input-placeholder {
+        color: @color;
+    }
+    // Safari and Chrome
+}
+
+.box-shadow(@shadow) {
+    -moz-box-shadow: @shadow;
+    -webkit-box-shadow: @shadow; // iOS <4.3 & Android <4.1
+    box-shadow: @shadow;
+}
+
+.transform_scale(@scale) {
+    transform: scale(@scale);
+    -moz-transform: scale(@scale);
+    -webkit-transform: scale(@scale);
+    -ms-transform: scale(@scale);
+}
+
+.transition(@transition) {
+    transition: @transition;
+    -moz-transition: @transition;
+    -webkit-transition: @transition;
+}
+
+.transform(@transform) {
+    -webkit-transform: @transform;
+    -moz-transform: @transform;
+    -o-transform: @transform;
+    transform: @transform;
+}
+
+.transform_origin(@var1,@var2) {
+    transform-origin: @var1 @var2;
+    -moz-transform-origin: @var1 @var2;
+    -webkit-transform-origin: @var1 @var2;
+    -ms-transform-origin: @var1 @var2;
+}
+
+.border_radius(@radius) {
+    border-radius: @radius;
+    -moz-border-radius: @radius;
+    -webkit-border-radius: @radius;
+}
+
+// Single side border-radius
+
+.border-top-radius(@radius) {
+    border-top-right-radius: @radius;
+    border-top-left-radius: @radius;
+}
+
+.border-right-radius(@radius) {
+    border-bottom-right-radius: @radius;
+    border-top-right-radius: @radius;
+}
+
+.border-bottom-radius(@radius) {
+    border-bottom-right-radius: @radius;
+    border-bottom-left-radius: @radius;
+}
+
+.border-left-radius(@radius) {
+    border-bottom-left-radius: @radius;
+    border-top-left-radius: @radius;
+}
+
+.font-awesome (@code, @size) {
+    content: '\@{code}';
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    font-synthesis: weight style;
+    font-stretch: normal;
+    font-size-adjust: none;
+    font-language-override: normal;
+    font-kerning: auto;
+    font-feature-settings: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    font-size: @size;
+}
+
+.box-shadow(@shadow) {
+    -webkit-box-shadow: @shadow; // iOS <4.3 & Android <4.1
+    box-shadow: @shadow;
+}
+
+/* define */
+.effect-block-show() {
+    visibility: visible;
+    .opacity(1);
+    .transition(all 0.2s ease-in-out 0s);
+
+}
+
+.effect-block-hide() {
+    visibility: hidden;
+    .opacity(0);
+    .transition(all 0.2s ease-in-out 0s);
+}
+
+.banner-hover() {
+    a:hover {
+        .opacity(0.8);
+    }
+}
+
+.banner-hover-effect() {
+    a {
+        display: block;
+        position: relative;
+
+        &:before,
+        &:after {
+            content: "";
+            background: rgba(0, 0, 0, 0.1);
+            position: absolute;
+            width: 0;
+            height: 0;
+            .transition(all 0.25s ease-in-out 0s);
+        }
+
+        &:before {
+            top: 0;
+            left: 0;
+        }
+
+        &:after {
+            right: 0;
+            bottom: 0;
+        }
+
+        &:hover {
+            &:before,
+            &:after {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+.banner-hover-effect2() {
+    a {
+        display: block;
+        position: relative;
+
+        &:before {
+            background-color: rgba(0, 0, 0, 0.3);
+            content: "";
+            height: 100%;
+            width: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            .transition(all 0.2s ease-in-out 0s);
+            visibility: hidden;
+            .opacity(0);
+        }
+
+        &:hover {
+            &:before {
+                visibility: visible;
+                .opacity(1);
+            }
+        }
+    }
+}
+
+.banner-hover-effect3() {
+    a {
+        float: left;
+        display: block;
+        position: relative;
+        overflow: hidden;
+
+        &:before {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.3);
+            width: 0;
+            top: 0;
+            left: 50%;
+            content: "";
+            transition: all 0.3s ease-in-out 0s;
+        }
+
+        &:hover {
+            &:before {
+                width: 100%;
+                left: 0;
+                top: 0;
+                height: 100%;
+            }
+        }
+    }
+}
+
+.buttonslideowl-style(@width,@height,@fontsize) {
+    width: @width;
+    height: @height;
+    line-height: @height;
+    text-align: center;
+    border: 2px solid #e8e8e8;
+    .border_radius(100%);
+    position: relative;
+    text-indent: -9999px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #fff;
+    &:before {
+        color: #e8e8e8;
+        position: absolute;
+        left: 0;
+        top: 4px;
+        display: inline-block;
+        text-indent: 0;
+        width: 100%;
+        height: 100%;
+    }
+    &.owl-next {
+        &:before {
+            .font-awesome(f0da, @fontsize);
+            left: 2px;
+        }
+    }
+    &.owl-prev {
+        &:before {
+            .font-awesome(f0d9, @fontsize);
+        }
+    }
+    &:hover {
+        border-color: #c3c3c3;
+
+        &:before {
+            color: #c3c3c3;
+        }
+    }
+
+}

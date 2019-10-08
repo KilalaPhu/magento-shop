@@ -1,0 +1,120 @@
+<div class="header-container header-style-4">
+    <div class="header">
+        <div class="container container-custom">
+            <div class="row">
+                <div class="header-left col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="menu-content-sidebar">
+                        <div class="btn-menu">
+                            <a href="javascript:void(0)"
+                               title="<?php echo __('All Departments') ?>"><?php echo __('All Departments') ?></a>
+                        </div>
+
+                        <div class="main-menu">
+                            <div class="menu-content">
+                                <?php
+                                if ($_config->getGeneral('menu_style') == 'megamenu') {
+                                    echo $block->getChildHtml('navigation-header-megamenu');
+                                } else {
+                                    echo $block->getChildHtml('navigation-header');
+                                }
+                                ?>
+                            </div>
+                            <div class="navigation-mobile-container">
+                                <?php echo $block->getChildHtml('navigation.mobile'); ?>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <?php echo $block->getChildHtml('language-header'); ?>
+                    <?php echo $block->getChildHtml('currency-header'); ?>
+                </div>
+
+                <div class="header-center col-lg-4 col-md-3 col-sm-3 col-xs-12">
+                    <?php echo $block->getChildHtml('logo-header'); ?>
+                </div>
+
+                <div class="header-right col-lg-4 col-md-5 col-sm-5 col-xs-12">
+                    <div class="inner">
+                        <div class="search-w">
+                            <div class="search-button">
+                                <span><?php echo __('Search'); ?></span><i class="fa fa-search"></i>
+                            </div>
+                            <?php echo $block->getChildHtml('search-header'); ?>
+                        </div>
+
+                        <div class="dropdown-block block-login">
+                            <?php
+                            $login_customer = $block->getLayout()->createBlock('Magento\Customer\Block\Account\Customer');
+                            ?>
+
+                            <?php if ($login_customer->customerLoggedIn()) { ?>
+                                <a class="cus-btn" href="<?php echo $block->getUrl('customer/account/logout') ?>"
+                                   title="<?php echo __('Logout'); ?>">
+                                    <i class="fa fa-unlock-alt"></i>
+                                    <?php echo __('Logout'); ?>
+                                </a>
+                            <?php } else { ?>
+                                <a class="cus-btn" href="<?php echo $block->getUrl('customer/account/login') ?>"
+                                   title="<?php echo __('Login') ?>">
+                                    <i class="fa fa-lock"></i>
+                                    <?php echo __('Login') ?>
+                                </a>
+                            <?php }
+                            ?>
+                        </div>
+                        <div class="dropdown-block block-myacount">
+                            <div class="account-links">
+                                <div class="dropdown-toggle">
+                                    <a class="myaccount-link" href="javascript:void(0);"
+                                       title="<?php echo __('My Account'); ?>"><i
+                                                class="fa fa-user"></i><?php echo __('My Account'); ?></a>
+                                </div>
+                                <ul class="dropdown-list">
+                                    <li class="mn-my-account"><a
+                                                href="<?php echo $block->getUrl('customer/account'); ?>"
+                                                title="<?php echo __('My Account'); ?>"><?php echo __('My Account'); ?></a>
+                                    </li>
+                                    <li class="mn-my-wishlist"><a href="<?php echo $block->getUrl('wishlist') ?>"
+                                                                  title="<?php echo __('My Wish List'); ?>"><?php echo __('My Wish List'); ?></a>
+                                    </li>
+                                    <li class="mn-top-link-compare"><a
+                                                href="<?php echo $block->getUrl('catalog/product_compare/index/') ?>"
+                                                title="<?php echo __('My Compare'); ?>"><?php echo __('My Compare'); ?></a>
+                                    </li>
+                                    <li class="mn-top-link-checkout"><a href="<?php echo $block->getUrl('checkout') ?>"
+                                                                        title="<?php echo __('Checkout'); ?>"><?php echo __('Checkout'); ?></a>
+                                    </li>
+                                    <?php if ($login_customer->customerLoggedIn()) { ?>
+                                        <li class="mn-logout"><a
+                                                    href="<?php echo $block->getUrl('customer/account/logout') ?>"
+                                                    title="<?php echo __('Logout'); ?>">
+                                                <?php echo __('Logout'); ?>
+                                            </a></li>
+                                    <?php } else { ?>
+                                        <li class="mn-login"><a
+                                                    href="<?php echo $block->getUrl('customer/account/login') ?>"
+                                                    title="<?php echo __('Login') ?>">
+                                                <?php echo __('Login') ?>
+                                            </a></li>
+                                    <?php }
+                                    ?>
+
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <div class="minicart-header">
+                            <div class="minicart-content">
+                                <?php echo $block->getChildHtml('cart-header'); ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
